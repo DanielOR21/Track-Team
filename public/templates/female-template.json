@@ -1,0 +1,826 @@
+[
+    {
+        "id": 3,
+        "name": "venusaur-female",
+        "type1": "grass",
+        "type2": "poison",
+        "original_id": 3,
+        "section": "female"
+    },
+    {
+        "id": 12,
+        "name": "butterfree-female",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 12,
+        "section": "female"
+    },
+    {
+        "id": 19,
+        "name": "rattata-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 19,
+        "section": "female"
+    },
+    {
+        "id": 20,
+        "name": "raticate-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 20,
+        "section": "female"
+    },
+    {
+        "id": 25,
+        "name": "pikachu-female",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "female"
+    },
+    {
+        "id": 26,
+        "name": "raichu-female",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 26,
+        "section": "female"
+    },
+    {
+        "id": 41,
+        "name": "zubat-female",
+        "type1": "poison",
+        "type2": "flying",
+        "original_id": 41,
+        "section": "female"
+    },
+    {
+        "id": 42,
+        "name": "golbat-female",
+        "type1": "poison",
+        "type2": "flying",
+        "original_id": 42,
+        "section": "female"
+    },
+    {
+        "id": 44,
+        "name": "gloom-female",
+        "type1": "grass",
+        "type2": "poison",
+        "original_id": 44,
+        "section": "female"
+    },
+    {
+        "id": 45,
+        "name": "vileplume-female",
+        "type1": "grass",
+        "type2": "poison",
+        "original_id": 45,
+        "section": "female"
+    },
+    {
+        "id": 64,
+        "name": "kadabra-female",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 64,
+        "section": "female"
+    },
+    {
+        "id": 65,
+        "name": "alakazam-female",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 65,
+        "section": "female"
+    },
+    {
+        "id": 84,
+        "name": "doduo-female",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 84,
+        "section": "female"
+    },
+    {
+        "id": 85,
+        "name": "dodrio-female",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 85,
+        "section": "female"
+    },
+    {
+        "id": 97,
+        "name": "hypno-female",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 97,
+        "section": "female"
+    },
+    {
+        "id": 111,
+        "name": "rhyhorn-female",
+        "type1": "ground",
+        "type2": "rock",
+        "original_id": 111,
+        "section": "female"
+    },
+    {
+        "id": 112,
+        "name": "rhydon-female",
+        "type1": "ground",
+        "type2": "rock",
+        "original_id": 112,
+        "section": "female"
+    },
+    {
+        "id": 118,
+        "name": "goldeen-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 118,
+        "section": "female"
+    },
+    {
+        "id": 119,
+        "name": "seaking-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 119,
+        "section": "female"
+    },
+    {
+        "id": 123,
+        "name": "scyther-female",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 123,
+        "section": "female"
+    },
+    {
+        "id": 129,
+        "name": "magikarp-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 129,
+        "section": "female"
+    },
+    {
+        "id": 130,
+        "name": "gyarados-female",
+        "type1": "water",
+        "type2": "flying",
+        "original_id": 130,
+        "section": "female"
+    },
+    {
+        "id": 133,
+        "name": "eevee-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 133,
+        "section": "female"
+    },
+    {
+        "id": 154,
+        "name": "meganium-female",
+        "type1": "grass",
+        "type2": "none",
+        "original_id": 154,
+        "section": "female"
+    },
+    {
+        "id": 165,
+        "name": "ledyba-female",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 165,
+        "section": "female"
+    },
+    {
+        "id": 166,
+        "name": "ledian-female",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 166,
+        "section": "female"
+    },
+    {
+        "id": 178,
+        "name": "xatu-female",
+        "type1": "psychic",
+        "type2": "flying",
+        "original_id": 178,
+        "section": "female"
+    },
+    {
+        "id": 185,
+        "name": "sudowoodo-female",
+        "type1": "rock",
+        "type2": "none",
+        "original_id": 185,
+        "section": "female"
+    },
+    {
+        "id": 186,
+        "name": "politoed-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 186,
+        "section": "female"
+    },
+    {
+        "id": 190,
+        "name": "aipom-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 190,
+        "section": "female"
+    },
+    {
+        "id": 194,
+        "name": "wooper-female",
+        "type1": "water",
+        "type2": "ground",
+        "original_id": 194,
+        "section": "female"
+    },
+    {
+        "id": 195,
+        "name": "quagsire-female",
+        "type1": "water",
+        "type2": "ground",
+        "original_id": 195,
+        "section": "female"
+    },
+    {
+        "id": 198,
+        "name": "murkrow-female",
+        "type1": "dark",
+        "type2": "flying",
+        "original_id": 198,
+        "section": "female"
+    },
+    {
+        "id": 202,
+        "name": "wobbuffet-female",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 202,
+        "section": "female"
+    },
+    {
+        "id": 203,
+        "name": "girafarig-female",
+        "type1": "normal",
+        "type2": "psychic",
+        "original_id": 203,
+        "section": "female"
+    },
+    {
+        "id": 207,
+        "name": "gligar-female",
+        "type1": "ground",
+        "type2": "flying",
+        "original_id": 207,
+        "section": "female"
+    },
+    {
+        "id": 208,
+        "name": "steelix-female",
+        "type1": "steel",
+        "type2": "ground",
+        "original_id": 208,
+        "section": "female"
+    },
+    {
+        "id": 212,
+        "name": "scizor-female",
+        "type1": "bug",
+        "type2": "steel",
+        "original_id": 212,
+        "section": "female"
+    },
+    {
+        "id": 214,
+        "name": "heracross-female",
+        "type1": "bug",
+        "type2": "fighting",
+        "original_id": 214,
+        "section": "female"
+    },
+    {
+        "id": 215,
+        "name": "sneasel-female",
+        "type1": "dark",
+        "type2": "ice",
+        "original_id": 215,
+        "section": "female"
+    },
+    {
+        "id": 217,
+        "name": "ursaring-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 217,
+        "section": "female"
+    },
+    {
+        "id": 221,
+        "name": "piloswine-female",
+        "type1": "ice",
+        "type2": "ground",
+        "original_id": 221,
+        "section": "female"
+    },
+    {
+        "id": 224,
+        "name": "octillery-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 224,
+        "section": "female"
+    },
+    {
+        "id": 229,
+        "name": "houndoom-female",
+        "type1": "dark",
+        "type2": "fire",
+        "original_id": 229,
+        "section": "female"
+    },
+    {
+        "id": 232,
+        "name": "donphan-female",
+        "type1": "ground",
+        "type2": "none",
+        "original_id": 232,
+        "section": "female"
+    },
+    {
+        "id": 255,
+        "name": "torchic-female",
+        "type1": "fire",
+        "type2": "none",
+        "original_id": 255,
+        "section": "female"
+    },
+    {
+        "id": 256,
+        "name": "combusken-female",
+        "type1": "fire",
+        "type2": "fighting",
+        "original_id": 256,
+        "section": "female"
+    },
+    {
+        "id": 257,
+        "name": "blaziken-female",
+        "type1": "fire",
+        "type2": "fighting",
+        "original_id": 257,
+        "section": "female"
+    },
+    {
+        "id": 267,
+        "name": "beautifly-female",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 267,
+        "section": "female"
+    },
+    {
+        "id": 269,
+        "name": "dustox-female",
+        "type1": "bug",
+        "type2": "poison",
+        "original_id": 269,
+        "section": "female"
+    },
+    {
+        "id": 272,
+        "name": "ludicolo-female",
+        "type1": "water",
+        "type2": "grass",
+        "original_id": 272,
+        "section": "female"
+    },
+    {
+        "id": 274,
+        "name": "nuzleaf-female",
+        "type1": "grass",
+        "type2": "dark",
+        "original_id": 274,
+        "section": "female"
+    },
+    {
+        "id": 275,
+        "name": "shiftry-female",
+        "type1": "grass",
+        "type2": "dark",
+        "original_id": 275,
+        "section": "female"
+    },
+    {
+        "id": 307,
+        "name": "meditite-female",
+        "type1": "fighting",
+        "type2": "psychic",
+        "original_id": 307,
+        "section": "female"
+    },
+    {
+        "id": 308,
+        "name": "medicham-female",
+        "type1": "fighting",
+        "type2": "psychic",
+        "original_id": 308,
+        "section": "female"
+    },
+    {
+        "id": 315,
+        "name": "roselia-female",
+        "type1": "grass",
+        "type2": "poison",
+        "original_id": 315,
+        "section": "female"
+    },
+    {
+        "id": 316,
+        "name": "gulpin-female",
+        "type1": "poison",
+        "type2": "none",
+        "original_id": 316,
+        "section": "female"
+    },
+    {
+        "id": 317,
+        "name": "swalot-female",
+        "type1": "poison",
+        "type2": "none",
+        "original_id": 317,
+        "section": "female"
+    },
+    {
+        "id": 322,
+        "name": "numel-female",
+        "type1": "fire",
+        "type2": "ground",
+        "original_id": 322,
+        "section": "female"
+    },
+    {
+        "id": 323,
+        "name": "camerupt-female",
+        "type1": "fire",
+        "type2": "ground",
+        "original_id": 323,
+        "section": "female"
+    },
+    {
+        "id": 332,
+        "name": "cacturne-female",
+        "type1": "grass",
+        "type2": "dark",
+        "original_id": 332,
+        "section": "female"
+    },
+    {
+        "id": 350,
+        "name": "milotic-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 350,
+        "section": "female"
+    },
+    {
+        "id": 369,
+        "name": "relicanth-female",
+        "type1": "water",
+        "type2": "rock",
+        "original_id": 369,
+        "section": "female"
+    },
+    {
+        "id": 396,
+        "name": "starly-female",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 396,
+        "section": "female"
+    },
+    {
+        "id": 397,
+        "name": "staravia-female",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 397,
+        "section": "female"
+    },
+    {
+        "id": 398,
+        "name": "staraptor-female",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 398,
+        "section": "female"
+    },
+    {
+        "id": 399,
+        "name": "bidoof-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 399,
+        "section": "female"
+    },
+    {
+        "id": 400,
+        "name": "bibarel-female",
+        "type1": "normal",
+        "type2": "water",
+        "original_id": 400,
+        "section": "female"
+    },
+    {
+        "id": 401,
+        "name": "kricketot-female",
+        "type1": "bug",
+        "type2": "none",
+        "original_id": 401,
+        "section": "female"
+    },
+    {
+        "id": 402,
+        "name": "kricketune-female",
+        "type1": "bug",
+        "type2": "none",
+        "original_id": 402,
+        "section": "female"
+    },
+    {
+        "id": 403,
+        "name": "shinx-female",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 403,
+        "section": "female"
+    },
+    {
+        "id": 404,
+        "name": "luxio-female",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 404,
+        "section": "female"
+    },
+    {
+        "id": 405,
+        "name": "luxray-female",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 405,
+        "section": "female"
+    },
+    {
+        "id": 407,
+        "name": "roserade-female",
+        "type1": "grass",
+        "type2": "poison",
+        "original_id": 407,
+        "section": "female"
+    },
+    {
+        "id": 415,
+        "name": "combee-female",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 415,
+        "section": "female"
+    },
+    {
+        "id": 417,
+        "name": "pachirisu-female",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 417,
+        "section": "female"
+    },
+    {
+        "id": 418,
+        "name": "buizel-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 418,
+        "section": "female"
+    },
+    {
+        "id": 419,
+        "name": "floatzel-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 419,
+        "section": "female"
+    },
+    {
+        "id": 424,
+        "name": "ambipom-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 424,
+        "section": "female"
+    },
+    {
+        "id": 443,
+        "name": "gible-female",
+        "type1": "dragon",
+        "type2": "ground",
+        "original_id": 443,
+        "section": "female"
+    },
+    {
+        "id": 444,
+        "name": "gabite-female",
+        "type1": "dragon",
+        "type2": "ground",
+        "original_id": 444,
+        "section": "female"
+    },
+    {
+        "id": 445,
+        "name": "garchomp-female",
+        "type1": "dragon",
+        "type2": "ground",
+        "original_id": 445,
+        "section": "female"
+    },
+    {
+        "id": 449,
+        "name": "hippopotas-female",
+        "type1": "ground",
+        "type2": "none",
+        "original_id": 449,
+        "section": "female"
+    },
+    {
+        "id": 450,
+        "name": "hippowdon-female",
+        "type1": "ground",
+        "type2": "none",
+        "original_id": 450,
+        "section": "female"
+    },
+    {
+        "id": 453,
+        "name": "croagunk-female",
+        "type1": "poison",
+        "type2": "fighting",
+        "original_id": 453,
+        "section": "female"
+    },
+    {
+        "id": 454,
+        "name": "toxicroak-female",
+        "type1": "poison",
+        "type2": "fighting",
+        "original_id": 454,
+        "section": "female"
+    },
+    {
+        "id": 456,
+        "name": "finneon-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 456,
+        "section": "female"
+    },
+    {
+        "id": 457,
+        "name": "lumineon-female",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 457,
+        "section": "female"
+    },
+    {
+        "id": 459,
+        "name": "snover-female",
+        "type1": "grass",
+        "type2": "ice",
+        "original_id": 459,
+        "section": "female"
+    },
+    {
+        "id": 460,
+        "name": "abomasnow-female",
+        "type1": "grass",
+        "type2": "ice",
+        "original_id": 460,
+        "section": "female"
+    },
+    {
+        "id": 461,
+        "name": "weavile-female",
+        "type1": "dark",
+        "type2": "ice",
+        "original_id": 461,
+        "section": "female"
+    },
+    {
+        "id": 464,
+        "name": "rhyperior-female",
+        "type1": "ground",
+        "type2": "rock",
+        "original_id": 464,
+        "section": "female"
+    },
+    {
+        "id": 465,
+        "name": "tangrowth-female",
+        "type1": "grass",
+        "type2": "none",
+        "original_id": 465,
+        "section": "female"
+    },
+    {
+        "id": 473,
+        "name": "mamoswine-female",
+        "type1": "ice",
+        "type2": "ground",
+        "original_id": 473,
+        "section": "female"
+    },
+    {
+        "id": 521,
+        "name": "unfezant-female",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 521,
+        "section": "female"
+    },
+    {
+        "id": 592,
+        "name": "frillish-female",
+        "type1": "water",
+        "type2": "ghost",
+        "original_id": 592,
+        "section": "female"
+    },
+    {
+        "id": 593,
+        "name": "jellicent-female",
+        "type1": "water",
+        "type2": "ghost",
+        "original_id": 593,
+        "section": "female"
+    },
+    {
+        "id": 668,
+        "name": "pyroar-female",
+        "type1": "fire",
+        "type2": "normal",
+        "original_id": 668,
+        "section": "female"
+    },
+    {
+        "id": 10124,
+        "name": "meowstic-female",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 678,
+        "section": "female"
+    },
+    {
+        "id": 10355,
+        "name": "indeedee-female",
+        "type1": "psychic",
+        "type2": "normal",
+        "original_id": 876,
+        "section": "female"
+    },
+    {
+        "id": 10404,
+        "name": "sneasel-hisui-female",
+        "type1": "fighting",
+        "type2": "poison",
+        "original_id": 215,
+        "section": "female"
+    },
+    {
+        "id": 10417,
+        "name": "basculegion-female",
+        "type1": "water",
+        "type2": "ghost",
+        "original_id": 902,
+        "section": "female"
+    },
+    {
+        "id": 10423,
+        "name": "oinkologne-female",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 916,
+        "section": "female"
+    }
+]

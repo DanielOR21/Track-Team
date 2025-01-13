@@ -1,0 +1,348 @@
+<div class="page-container">
+
+  <div class="div-filters-ability animate-fade-in">
+
+    @if (abilityInfo) {
+      <div class="ability-info animate-slide-in">
+        <button class="close-button-info" (click)="closeAbilityInfo()"><i class="bi bi-x"></i></button>
+  
+        <div class="info-data">
+  
+          <div class="ability-info-name">
+            @if(currentLanguage === 'en'){
+            {{abilityInfo.languaje[0].en | formatName}}
+            }@else if(currentLanguage === 'es'){
+            {{abilityInfo.languaje[1].es | formatName}}
+            }
+          </div>
+  
+          <div class="ability-info-name-alt">
+            @if(currentLanguage === 'es'){
+            (en) {{abilityInfo.languaje[0].en | formatName}}
+            }@else if(currentLanguage === 'en'){
+            (es) {{abilityInfo.languaje[1].es | formatName}}
+            }
+          </div>
+  
+        </div>
+  
+        <div class="div-states-drop">
+  
+          <div class="info-text">
+            <img src="/symbols/info.png" class="info-symbol" alt="info"> State:
+          </div>
+  
+          <div class="info-dropdown-button" (click)="toggleDropdown(5)">
+            <img [src]="'/symbols/'+abilityInfo.state+'.png' " alt="{{ abilityInfo.state }}" class="states-dropdown-icon">
+            <span>{{ abilityInfo.state }}</span>
+          </div>
+  
+          <div class="states-dropdown-content" [class.open]="isDropdownOpenInfoState">
+            @for (state of stateList; track $index) {
+            <div class="states-dropdown-item" (click)="updateAbilityInfoState(abilityInfo, state.value)">
+              <img [src]="state.img " alt="{{ state.name }}" class="states-dropdown-icon">
+              <span>{{ state.name }}</span>
+            </div>
+            }
+          </div>
+  
+        </div>
+  
+        <div class="div-games-drop">
+  
+          <div class="info-text">Game: </div>
+  
+          <div class="info-dropdown-button" (click)="toggleDropdown(6)"
+            [style]="'background:'+getBackgroundByGameName(abilityInfo.game)">
+            <span>{{ abilityInfo.game }}</span>
+          </div>
+  
+          <div class="games-dropdown-content" [class.open]="isDropdownOpenInfoGame">
+            @for (game of gameList; track $index) {
+  
+            @if ($index > 0 && game.group !== gameList[$index - 1].group) {
+            <div class="group-separator"></div>
+            }
+  
+            <div class="games-dropdown-item" [style]="'background:'+game.background"
+              (click)="updateAbilityInfoGame(abilityInfo, game.name)">
+              {{ game.name }}
+            </div>
+            }
+          </div>
+  
+        </div>
+  
+        <div class="ability-info-note">
+          <textarea id="textarea-info-ability" class='textarea-info-normal' [value]="abilityInfo.note" rows="2" maxlength="40"
+            placeholder="Enter note..."></textarea>
+          <div class="info-dropdown-button" [class]="{'pokemon-info-button-shiny': abilityInfo.shiny === true}"
+            [class.clicked]="isButtonClicked" (click)="updateAbilityInfoNote(abilityInfo)">Update Note</div>
+        </div>
+  
+        <div class="ability-info-pokemon-div">
+          @if (abilityInfo.pokemon_id === 0) {
+          <img src="/home/0.png" alt="" class="ability-pokemon-img">
+          }@else {
+          @if (abilityInfo.shiny) {
+          <img [src]="'/home/shiny/'+abilityInfo.section+'/'+abilityInfo.pokemon_id +'.png'" alt="" class="ability-pokemon-img"
+            (error)="onImageError($event, abilityInfo.pokemon_id)">
+          }@else{
+          <img [src]="'/home/'+abilityInfo.section+'/'+abilityInfo.pokemon_id +'.png'" alt="" class="ability-pokemon-img"
+            (error)="onImageError($event, abilityInfo.pokemon_id)">
+          }
+          }
+          @if(abilityPokemonInfo){
+          <div class="ability-info-show-pokemon info-dropdown-button info-button-selected"
+            (click)="showPokemonAbilityInfo('toggle')">
+            Stop
+          </div>
+          }@else{
+          <div class="ability-info-show-pokemon info-dropdown-button" (click)="showPokemonAbilityInfo('toggle')">
+            Change Pokémon
+          </div>
+          }
+        </div>
+      </div>
+      }
+
+
+    <div class="change-order" (click)="changeOrder()">
+      Order:
+      @if (order === 'abc') {
+      A-Z
+      }@else {
+      None
+      }
+    </div>
+
+    <div class="search-ability-div">
+      <span class="animate-drop">Nº Results: </span><span style="font-weight: bold;">{{showList.length}}</span>
+      <input type="text" id="search-pokemon-ability" class="search-ability" placeholder="Search..."
+        (input)="onSearch($event)">
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(2)">
+        States <span class="drop-arrow" [class.open]="isDropdownOpenState">▶</span>
+        @if (filterState) {
+        <span> ({{filterState}})</span>
+        }
+      </div>
+      <div class="states-menu animate-drop" [class.open]="isDropdownOpenState">
+        @for (item of stateList; track $index) {
+        <div [id]="'state-option-' + item.name" class="state-item normal-item"
+          (click)="updateFilters(item.value, 'state')">
+          <img [src]="item.img " alt="{{ item.name }}" class="states-filter-icon">
+          <span class="state-title">{{ item.name }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(3)">
+        Games <span class="drop-arrow" [class.open]="isDropdownOpenGames">▶</span>
+        @if (filterGame) {
+        <span> ({{filterGame}})</span>
+        }
+      </div>
+      <div class="games-menu animate-drop" [class.open]="isDropdownOpenGames">
+        @for (item of gameList; track $index) {
+        <div [id]="'game-option-' + item.name" class="game-item normal-item" (click)="updateFilters(item.name, 'game')">
+          <span class="game-title">{{ item.name }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(4)">
+        Note <span class="drop-arrow" [class.open]="isDropdownOpenNote">▶</span>
+        @if (filterNote === true) {
+        <span> (Yes)</span>
+        }@else if (filterNote === false) {
+        <span> (No)</span>
+        }
+      </div>
+      <div class="note-menu animate-drop" [class.open]="isDropdownOpenNote">
+        <div id="note-option-true" class="note-item normal-item" (click)="updateFilters(true, 'note')">
+          <span class="note-title">Yes</span>
+        </div>
+        <div id="note-option-false" class="note-item normal-item" (click)="updateFilters(false, 'note')">
+          <span class="note-title">No</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(1)">
+        Pokémon <span class="drop-arrow" [class.open]="isDropdownOpenPokemon">▶</span>
+        @if (filterPokemon === true) {
+        <span> (Yes)</span>
+        }@else if (filterPokemon === false) {
+        <span> (No)</span>
+        }
+      </div>
+      <div class="note-menu animate-drop" [class.open]="isDropdownOpenPokemon">
+        <div id="pokemon-option-true" class="note-item normal-item" (click)="updateFilters(true, 'pokemon')">
+          <span class="note-title">Yes</span>
+        </div>
+        <div id="pokemon-option-false" class="note-item normal-item" (click)="updateFilters(false, 'pokemon')">
+          <span class="note-title">No</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="content-wrapper">
+
+    <div class="div-titles-ability">
+      @if (abilityPokemonInfo) {
+
+      <div id="ability-info-title-learn" class="gen-title info-title title-selected"
+        (click)="showPokemonAbilityInfo('learn')">Learn by:</div>
+        <div id="ability-info-title-hidden" class="gen-title info-title" (click)="showPokemonAbilityInfo('hidden')">Hidden:</div>
+      <div id="ability-info-title-all" class="gen-title info-title" (click)="showPokemonAbilityInfo('all')">All:</div>
+
+      }@else{
+
+      @for (title of titleList; track $index) {
+
+      <div [id]="'ability-title-'+title.number" class="gen-title"
+        (click)="titleSelected != title.number && updateShowList(title.number)">
+
+        @if(titleSelected === title.number){
+
+        <div class="title-selected-container">
+          <span class="title-left">{{title.name}}</span>
+          <span class="title-right">({{countCaughtSection}}/{{countAllSection}}) {{percentageBarSection}}%</span>
+        </div>
+
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar" [style.width.%]="percentageBarSection"></div>
+        </div>
+
+        }@else{
+        {{title.name}}
+        }
+
+      </div>
+
+      }
+      }
+
+    </div>
+
+    @if (abilityPokemonInfo && abilityInfo) {
+
+    <div class="search-container" [class]="{'shiny-container': shinyPokemon, 'normal-container': !shinyPokemon}">
+
+      <div class="search-ability-pokemon-div">
+        <input type="text" class="search-pokemon" placeholder="Search..." (input)="onSearchPokemon($event)">
+      </div>
+
+      <div class="pokemon-info-change-shiny" [class]="{'change-shiny': shinyPokemon, 'change-normal': !shinyPokemon}"
+        (click)="changeShiny()">
+        Shiny:
+        @if (shinyPokemon) {
+        Yes
+        }@else{
+        No
+        }
+
+      </div>
+
+    </div>
+
+    <div class="pokemon-container animate-fade-in"
+      [class]="{'shiny-container': shinyPokemon, 'normal-container': !shinyPokemon}">
+
+      @for (pokemon of showPokemonList; track $index) {
+
+      @defer(on viewport) {
+
+      <div class="pokemon-card" [id]="'pokemon-card-'+ pokemon.section + '-' + pokemon.id"
+        (click)="updateAbilityInfoPokemon(abilityInfo, pokemon)"
+        [class]="{'selected-card': pokemon.section === abilityInfo.section && pokemon.id === abilityInfo.pokemon_id && shinyPokemon === abilityInfo.shiny}"
+        [style]="{ 'background': (pokemon.type1 === 'none' && pokemon.type2 === 'none') ? 'white' :
+                  pokemon.type2 !== 'none' ? 'linear-gradient(to bottom right, ' + getTypeColor(pokemon.type1) + ' 30% , ' + getTypeColor(pokemon.type2) + ' 70%)' :
+                  getTypeColor(pokemon.type1)
+              }" (mouseenter)="onCardHover(pokemon.id, pokemon.section)" (mouseleave)="onCardMouseLeave()">
+
+        @if (pokemon.name.includes('female')) {
+        <img class="female" [src]="'/symbols/female.png'" alt='female' />
+        }
+
+        @if (!this.shinyPokemon){
+        <img [src]="'/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
+          alt="{{ pokemon.name }}" />
+        }@else {
+        <img [src]="'/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
+          (error)="onImageError($event, pokemon.id)" alt="{{ pokemon.name }}" />
+        }
+
+        @if(hoveredCardId === pokemon.id && hoveredCardSection === pokemon.section){
+        <div class="hover-name" [class]="{ 'hover-name-top': hoverPosition === 'top', 
+                  'hover-name-left': hoverAlignment === 'left', 'hover-name-right': hoverAlignment === 'right' }">
+          {{ pokemon.name | formatName }}
+        </div>
+        }
+
+      </div>
+
+      }@placeholder {
+      <div class="pokemon-card" style="background-color: rgba(21, 88, 32, 0.5);">
+        #{{pokemon.id}}
+      </div>
+      }
+
+      }
+
+    </div>
+
+
+    }@else {
+
+    <div class="ability-container animate-fade-in">
+
+      @for (ability of showList; track $index) {
+      @if (ability.home) {
+      @defer(on viewport) {
+      <div [id]="'ability-card-'+ability.id" class="ability-card" (click)="setAbilityInfo(ability)"
+        (dblclick)="setAbilityStateDC(ability.id, getAbilityStateLS(ability.id))" [class]="{
+          'no-registered': getAbilityStateLS(ability.id) === 'Uncaught',
+          'to-do-registered': getAbilityStateLS(ability.id) === 'Wanted',
+          'registered': getAbilityStateLS(ability.id) === 'Caught'
+        }">
+
+        @if (currentLanguage === 'en') {
+        {{ability.languaje[0].en}}
+        }@else if(currentLanguage === 'es'){
+        {{ability.languaje[1].es}}
+        }
+        @if (getAbilityStateLS(ability.id) === 'Caught') {
+        <img class="pokeball" [src]="'/symbols/Caught.png'" alt='catched' />
+        }@else if (getAbilityStateLS(ability.id) === 'Wanted') {
+        <img class="pokeball" [src]="'/symbols/Wanted.png'" alt='wanted' />
+        }@else if (getAbilityStateLS(ability.id) === 'Uncaught') {
+        <img class="pokeball" [src]="'/symbols/Uncaught.png'" alt='uncaught' />
+        }
+
+      </div>
+      }@placeholder {
+      <div class="ability-card" style="background-color: rgba(21, 88, 32, 0.5);">
+        #{{ability.id}}
+      </div>
+      }
+      }
+      }
+    </div>
+
+    }
+
+  </div>
+
+</div>

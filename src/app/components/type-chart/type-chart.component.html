@@ -1,0 +1,361 @@
+<div class="page-container">
+
+    <div class="type-list-div animate-fade-in">
+
+        <div class="type-list">
+            @for (type of typeList; track $index) {
+            <div class="type-list-item" [class.type-list-item-selected]="type === selectedType"
+                (click)="selectType(type)">
+                <img [src]="'/types/'+type.type+'.png'" [alt]="type.type"
+                    [title]="currentLanguage === 'es' ? type.es : type.type" />
+            </div>
+            }
+        </div>
+
+        @if (selectedType) {
+
+        <div class="type-details-div animate-slide-in">
+
+            <div class="main-type-title">
+                <h4>
+                    @if(currentLanguage === 'es') {
+                    {{ selectedType.es | formatName }}
+                    }@else {
+                    {{ selectedType.type | formatName }}
+                    }
+                </h4>
+            </div>
+
+            <div class="main-type">
+                <img [src]="'/types/'+selectedType.type+'.png'" [alt]="selectedType.type"
+                    [title]="currentLanguage === 'es' ? selectedType.es : selectedType.type" />
+            </div>
+
+            <div class="selected-damage-relations">
+
+                <div class="damage-relation-item">
+                    <div class="damage-relation-item-title">
+                        <img class="damage-relation-img" src="/symbols/defensive.png"
+                            [title]="currentLanguage === 'es' ? 'Defensor' : 'Defensive'" />
+                        <span>
+                            x2
+                        </span>
+                    </div>
+                    <div class="damage-relation-item-box">
+                        @for (item of selectedType.damage_relations.double_damage_from; track $index) {
+                        <div class="type-selected-item">
+                            <img [src]="'/types/'+item.name+'.png'" [alt]="item.name"
+                                [title]="getTranslatedTitle(item.name)" />
+                        </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="damage-relation-item">
+                    <div class="damage-relation-item-title">
+                        <img class="damage-relation-img" src="/symbols/defensive.png"
+                            [title]="currentLanguage === 'es' ? 'Defensor' : 'Defensive'" />
+                        <span>
+                            x½
+                        </span>
+                    </div>
+                    <div class="damage-relation-item-box">
+                        @for (item of selectedType.damage_relations.half_damage_from; track $index) {
+                        <div class="type-selected-item">
+                            <img [src]="'/types/'+item.name+'.png'" [alt]="item.name"
+                                [title]="getTranslatedTitle(item.name)" />
+                        </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="damage-relation-item">
+                    <div class="damage-relation-item-title">
+                        <img class="damage-relation-img" src="/symbols/defensive.png"
+                            [title]="currentLanguage === 'es' ? 'Defensor' : 'Defensive'" />
+                        <span>
+                            x0
+                        </span>
+                    </div>
+                    <div class="damage-relation-item-box">
+                        @for (item of selectedType.damage_relations.no_damage_from; track $index) {
+                        <div class="type-selected-item">
+                            <img [src]="'/types/'+item.name+'.png'" [alt]="item.name"
+                                [title]="getTranslatedTitle(item.name)" />
+                        </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="damage-relation-item">
+                    <div class="damage-relation-item-title">
+                        <img class="damage-relation-img" src="/symbols/offensive.png"
+                            [title]="currentLanguage === 'es' ? 'Atacante' : 'Offensive'" />
+                        <span>
+                            x2
+                        </span>
+                    </div>
+                    <div class="damage-relation-item-box">
+                        @for (item of selectedType.damage_relations.double_damage_to; track $index) {
+                        <div class="type-selected-item">
+                            <img [src]="'/types/'+item.name+'.png'" [alt]="item.name"
+                                [title]="getTranslatedTitle(item.name)" />
+                        </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="damage-relation-item">
+                    <div class="damage-relation-item-title">
+                        <img class="damage-relation-img" src="/symbols/offensive.png"
+                            [title]="currentLanguage === 'es' ? 'Atacante' : 'Offensive'" />
+                        <span>
+                            x½
+                        </span>
+                    </div>
+                    <div class="damage-relation-item-box">
+                        @for (item of selectedType.damage_relations.half_damage_to; track $index) {
+                        <div class="type-selected-item">
+                            <img [src]="'/types/'+item.name+'.png'" [alt]="item.name"
+                                [title]="getTranslatedTitle(item.name)" />
+                        </div>
+                        }
+                    </div>
+                </div>
+
+                <div class="damage-relation-item">
+                    <div class="damage-relation-item-title">
+                        <img class="damage-relation-img" src="/symbols/offensive.png"
+                            [title]="currentLanguage === 'es' ? 'Atacante' : 'Offensive'" />
+                        <span>
+                            x0
+                        </span>
+                    </div>
+                    <div class="damage-relation-item-box">
+                        @for (item of selectedType.damage_relations.no_damage_to; track $index) {
+                        <div class="type-selected-item">
+                            <img [src]="'/types/'+item.name+'.png'" [alt]="item.name"
+                                [title]="getTranslatedTitle(item.name)" />
+                        </div>
+                        }
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        }@else {
+        <div class="type-list-text animate-slide-in">
+            @if(currentLanguage === 'es') {
+            Selecciona un tipo
+            }@else {
+            Select a type
+            }
+        </div>
+        }
+
+    </div>
+
+
+    <div class="type-maker-container">
+
+        <div class="type-maker-div animate-fade-in">
+
+            <div class="type-maker-title">
+
+                <div class="type-maker-title-column-pokemon">
+                    Pokémon
+                </div>
+
+                <div class="type-maker-title-column">
+                    @if(currentLanguage === 'es') {
+                    Debilidades
+                    }@else {
+                    Weaknesses
+                    }
+                </div>
+                <div class="type-maker-title-column">
+                    @if(currentLanguage === 'es') {
+                    Resistencias
+                    }@else {
+                    Resistances
+                    }
+                </div>
+            </div>
+
+            @for (i of rows; track $index) {
+
+            <div class="type-maker-row" [class.odd-row]="i % 2 !==0" [class.even-row]="i % 2 ===0">
+
+                <div class="type-maker-column">
+
+                    <div [id]="'type1-' + i" class="type-maker-selector" (click)="openDropdown($event, 'type1', i)">
+                        <img [src]="'/types/'+selectedTypes['type1-' + i]+'.png'" alt=""
+                            [title]="getTranslatedTitle(selectedTypes['type1-' + i])" />
+                    </div>
+
+                    <div [id]="'type2-' + i" class="type-maker-selector" (click)="openDropdown($event, 'type2', i)">
+                        <img [src]="'/types/'+selectedTypes['type2-' + i]+'.png'" alt=""
+                            [title]="getTranslatedTitle(selectedTypes['type2-' + i])" />
+                    </div>
+
+                </div>
+
+                <div class="type-maker-column-relation">
+                    @if (showRelations[i]) {
+                    @for (item of showRelations[i].super_weaknesses; track $index) {
+                    <div class="type-selected-item super-relation">
+                        <img [src]="'/types/'+item+'.png'" [alt]="item" [title]="'x4 '+ getTranslatedTitle(item)" />
+                    </div>
+                    }
+                    @for (item of showRelations[i].weaknesses; track $index) {
+                    <div class="type-selected-item normal-relation">
+                        <img [src]="'/types/'+item+'.png'" [alt]="item" [title]="'x2 '+ getTranslatedTitle(item)" />
+                    </div>
+                    }
+                    }
+                </div>
+
+                <div class="type-maker-column-relation">
+                    @if (showRelations[i]) {
+                    @for (item of showRelations[i].immunities; track $index) {
+                    <div class="type-selected-item immunity-relation">
+                        <img [src]="'/types/'+item+'.png'" [alt]="item" [title]="'x0 '+ getTranslatedTitle(item)" />
+                    </div>
+                    }
+                    @for (item of showRelations[i].super_resistances; track $index) {
+                    <div class="type-selected-item super-relation">
+                        <img [src]="'/types/'+item+'.png'" [alt]="item" [title]="'x¼ '+ getTranslatedTitle(item)" />
+                    </div>
+                    }
+                    @for (item of showRelations[i].resistances; track $index) {
+                    <div class="type-selected-item normal-relation">
+                        <img [src]="'/types/'+item+'.png'" [alt]="item" [title]="'x½ '+ getTranslatedTitle(item)" />
+                    </div>
+                    }
+                    }
+                </div>
+
+            </div>
+
+            }
+
+            <div class="type-maker-overview">
+                <div class="type-maker-overview-column">
+                    <div class="reset-types">
+                        <div (click)="resetTypes()">
+                            @if(currentLanguage === 'es') {
+                            Reiniciar
+                            }@else {
+                            Reset
+                            }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="type-maker-overview-column-relation">
+
+                    <div class="overview-title">
+                        @if(currentLanguage === 'es') {
+                        Debilidades del Equipo:
+                        }@else {
+                        Team's Weaknesses:
+                        }
+                    </div>
+
+                    <div class="type-relation-box">
+                        @if(showTotalRelations) {
+                        @for (item of showTotalRelations['weaknesses'] | keyvalue; track $index) {
+                        <div class="type-relation-item">
+                            <span>x{{ item.value }}</span>
+                            <img [src]="'/types/' + item.key + '.png'" [alt]="item.key"
+                                [title]="getTranslatedTitle(item.key)" />
+                        </div>
+                        }
+                        }
+                    </div>
+
+                    <div class="overview-title">
+                        @if(currentLanguage === 'es') {
+                        Sin Debilidad:
+                        }@else {
+                        No Weakness:
+                        }
+                    </div>
+
+                    <div class="type-no-box">
+                        @for (item of noWeak | keyvalue; track $index) {
+                            @if (item.value) {
+                            <div class="type-no-item">
+                                <img [src]="'/types/' + item.key + '.png'" [alt]="item.key"
+                                    [title]="getTranslatedTitle(item.key)" />
+                            </div>
+                            }
+                        }
+                    </div>
+
+                </div>
+
+                <div class="type-maker-overview-column-relation">
+
+                    <div class="overview-title">
+                        @if(currentLanguage === 'es') {
+                        Resistencias del Equipo:
+                        }@else {
+                        Team's Resistances:
+                        }
+                    </div>
+
+                    <div class="type-relation-box">
+                        @if(showTotalRelations) {
+                        @for (item of showTotalRelations['resistances'] | keyvalue; track $index) {
+                        <div class="type-relation-item">
+                            <span>x{{ item.value }}</span>
+                            <img [src]="'/types/' + item.key + '.png'" [alt]="item.key"
+                                [title]="getTranslatedTitle(item.key)" />
+                        </div>
+                        }
+                        }
+                    </div>
+
+                    <div class="overview-title">
+                        @if(currentLanguage === 'es') {
+                        No Resistido:
+                        }@else {
+                        UnResisted:
+                        }
+                    </div>
+
+                    <div class="type-no-box">
+                        @for (item of noResisted | keyvalue; track $index) {
+                            @if (item.value) {
+                            <div class="type-no-item">
+                                <img [src]="'/types/' + item.key + '.png'" [alt]="item.key"
+                                    [title]="getTranslatedTitle(item.key)" />
+                            </div>
+                            }
+                        }
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="type-dropdown-content" [class.visible]="dropdownVisible" [style]="dropdownStyles"
+                (click)="$event.stopPropagation()">
+                <div class="type-dropdown-item" (click)="updateTypeSelection('none', currentTarget)">
+                    <img src="/types/none.png" alt="none" [title]="currentLanguage === 'es' ? 'nada' : 'none'">
+                </div>
+                @for (type of typeList; track $index) {
+                <div class="type-dropdown-item" (click)="updateTypeSelection(type.type, currentTarget)">
+                    <img [src]="'/types/'+type.type+'.png'" [alt]="type.type"
+                        [title]="currentLanguage === 'es' ? type.es : type.type" />
+                </div>
+                }
+            </div>
+        </div>
+
+    </div>
+
+</div>

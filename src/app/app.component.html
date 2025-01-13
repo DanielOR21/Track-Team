@@ -1,0 +1,108 @@
+<nav class="navbar navbar-expand-lg navbar-dark main-nav">
+  <div class="nav-languaje-div nav-main-item">
+    <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false">Idioma:
+      ({{currentLanguage}})</a>
+    <div class="dropdown-menu custom-dropdown" aria-labelledby="dropdown04">
+      <span class="dropdown-item" (click)="setLanguage('en')">English</span>
+      <span class="dropdown-item" (click)="setLanguage('es')">Español</span>
+    </div>
+  </div>
+
+  <div class="nav-track-div nav-main-item navbar-nav">
+    <div class="nav-item">
+      <a class="nav-link" routerLink="/AbilityDex">AbilityDex</a>
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" routerLink="/MoveDex">MoveDex</a>
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" routerLink="/HomeDex">HomeDex</a>
+    </div>
+  </div>
+
+  <div class="nav-title-div nav-main-item">
+    Track&Team
+  </div>
+
+  <div class="nav-track-div nav-main-item navbar-nav">
+    <div class="nav-item">
+      <a class="nav-link" routerLink="#">TeamMaker</a>
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" routerLink="#">Teams</a>
+    </div>
+    <div class="nav-item">
+      <a class="nav-link" routerLink="/TypeChart">TypeChart</a>
+    </div>
+  </div>
+
+  <div class="nav-impexp-div nav-main-item">
+    <a class="nav-link" routerLink="/ImportExport">Import/Export</a>
+  </div>
+  <!-- <div class="container-fluid">
+    <div class="navbar-collapse collapse" id="navbarsExample06">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown"
+            aria-expanded="false">Idioma: ({{currentLanguage}})</a>
+          <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdown04">
+            <li><span class="dropdown-item" (click)="setLanguage('en')">English</span></li>
+            <li><span class="dropdown-item" (click)="setLanguage('es')">Español</span></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/HomeDex">HomeDex</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/MoveDex">MoveDex</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/AbilityDex">AbilityDex</a>
+        </li>
+      </ul>
+    </div>
+    <a class="navbar-brand" href="/HomeDex">Track&Team</a>
+    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+      aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarsExample05">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown"
+            aria-expanded="false">Idioma: ({{currentLanguage}})</a>
+          <ul class="dropdown-menu custom-dropdown" aria-labelledby="dropdown04">
+            <li><span class="dropdown-item" (click)="setLanguage('en')">English</span></li>
+            <li><span class="dropdown-item" (click)="setLanguage('es')">Español</span></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/HomeDex">HomeDex</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/MoveDex">MoveDex</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/AbilityDex">AbilityDex</a>
+        </li>
+      </ul>
+    </div>
+  </div> -->
+</nav>
+
+<div class="route">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#" class="text-white">Privacy Policy</a></li>
+      <li class="list-inline-item"><a href="#" class="text-white">Terms of Service</a></li>
+      <li class="list-inline-item"><a href="#" class="text-white">Contact Us</a></li>
+    </ul>
+  </div>
+</footer>
+<!-- <router-outlet /> -->

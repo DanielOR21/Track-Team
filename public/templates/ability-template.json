@@ -1,0 +1,4773 @@
+[
+    {
+        "id": 1,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Stench"
+            },
+            {
+                "es": "Hedor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 2,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Drizzle"
+            },
+            {
+                "es": "Llovizna"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 3,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Speed Boost"
+            },
+            {
+                "es": "Impulso"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 4,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Battle Armor"
+            },
+            {
+                "es": "Armadura Batalla"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 5,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Sturdy"
+            },
+            {
+                "es": "Robustez"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 6,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Damp"
+            },
+            {
+                "es": "Humedad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 7,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Limber"
+            },
+            {
+                "es": "Flexibilidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 8,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Sand Veil"
+            },
+            {
+                "es": "Velo Arena"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 9,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Static"
+            },
+            {
+                "es": "Elec. Estática"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 10,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Volt Absorb"
+            },
+            {
+                "es": "Absorbe Elec"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 11,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Water Absorb"
+            },
+            {
+                "es": "Absorbe Agua"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 12,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Oblivious"
+            },
+            {
+                "es": "Despiste"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 13,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Cloud Nine"
+            },
+            {
+                "es": "Aclimatación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 14,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Compound Eyes"
+            },
+            {
+                "es": "Ojo Compuesto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 15,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Insomnia"
+            },
+            {
+                "es": "Insomnio"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 16,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Color Change"
+            },
+            {
+                "es": "Cambio Color"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 17,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Immunity"
+            },
+            {
+                "es": "Inmunidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 18,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Flash Fire"
+            },
+            {
+                "es": "Absorbe Fuego"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 19,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Shield Dust"
+            },
+            {
+                "es": "Polvo Escudo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 20,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Own Tempo"
+            },
+            {
+                "es": "Ritmo Propio"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 21,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Suction Cups"
+            },
+            {
+                "es": "Ventosas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 22,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Intimidate"
+            },
+            {
+                "es": "Intimidación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 23,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Shadow Tag"
+            },
+            {
+                "es": "Sombra Trampa"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 24,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Rough Skin"
+            },
+            {
+                "es": "Piel Tosca"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 25,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Wonder Guard"
+            },
+            {
+                "es": "Superguarda"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 26,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Levitate"
+            },
+            {
+                "es": "Levitación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 27,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Effect Spore"
+            },
+            {
+                "es": "Efecto Espora"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 28,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Synchronize"
+            },
+            {
+                "es": "Sincronía"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 29,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Clear Body"
+            },
+            {
+                "es": "Cuerpo Puro"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 30,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Natural Cure"
+            },
+            {
+                "es": "Cura Natural"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 31,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Lightning Rod"
+            },
+            {
+                "es": "Pararrayos"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 32,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Serene Grace"
+            },
+            {
+                "es": "Dicha"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 33,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Swift Swim"
+            },
+            {
+                "es": "Nado Rápido"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 34,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Chlorophyll"
+            },
+            {
+                "es": "Clorofila"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 35,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Illuminate"
+            },
+            {
+                "es": "Iluminación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 36,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Trace"
+            },
+            {
+                "es": "Calco"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 37,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Huge Power"
+            },
+            {
+                "es": "Potencia"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 38,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Poison Point"
+            },
+            {
+                "es": "Punto Tóxico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 39,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Inner Focus"
+            },
+            {
+                "es": "Fuerza Mental"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 40,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Magma Armor"
+            },
+            {
+                "es": "Escudo Magma"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 41,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Water Veil"
+            },
+            {
+                "es": "Velo Agua"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 42,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Magnet Pull"
+            },
+            {
+                "es": "Imán"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 43,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Soundproof"
+            },
+            {
+                "es": "Insonorizar"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 44,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Rain Dish"
+            },
+            {
+                "es": "Cura Lluvia"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 45,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Sand Stream"
+            },
+            {
+                "es": "Chorro Arena"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 46,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Pressure"
+            },
+            {
+                "es": "Presión"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 47,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Thick Fat"
+            },
+            {
+                "es": "Sebo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 48,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Early Bird"
+            },
+            {
+                "es": "Madrugar"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 49,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Flame Body"
+            },
+            {
+                "es": "Cuerpo Llama"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 50,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Run Away"
+            },
+            {
+                "es": "Fuga"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 51,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Keen Eye"
+            },
+            {
+                "es": "Vista Lince"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 52,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Hyper Cutter"
+            },
+            {
+                "es": "Corte Fuerte"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 53,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Pickup"
+            },
+            {
+                "es": "Recogida"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 54,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Truant"
+            },
+            {
+                "es": "Pereza"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 55,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Hustle"
+            },
+            {
+                "es": "Entusiasmo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 56,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Cute Charm"
+            },
+            {
+                "es": "Gran Encanto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 57,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Plus"
+            },
+            {
+                "es": "Más"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 58,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Minus"
+            },
+            {
+                "es": "Menos"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 59,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Forecast"
+            },
+            {
+                "es": "Predicción"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 60,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Sticky Hold"
+            },
+            {
+                "es": "Viscosidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 61,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Shed Skin"
+            },
+            {
+                "es": "Mudar"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 62,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Guts"
+            },
+            {
+                "es": "Agallas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 63,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Marvel Scale"
+            },
+            {
+                "es": "Escama Especial"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 64,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Liquid Ooze"
+            },
+            {
+                "es": "Viscosecreción"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 65,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Overgrow"
+            },
+            {
+                "es": "Espesura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 66,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Blaze"
+            },
+            {
+                "es": "Mar Llamas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 67,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Torrent"
+            },
+            {
+                "es": "Torrente"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 68,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Swarm"
+            },
+            {
+                "es": "Enjambre"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 69,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Rock Head"
+            },
+            {
+                "es": "Cabeza Roca"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 70,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Drought"
+            },
+            {
+                "es": "Sequía"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 71,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Arena Trap"
+            },
+            {
+                "es": "Trampa Arena"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 72,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Vital Spirit"
+            },
+            {
+                "es": "Espíritu Vital"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 73,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "White Smoke"
+            },
+            {
+                "es": "Humo Blanco"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 74,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Pure Power"
+            },
+            {
+                "es": "Energía Pura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 75,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Shell Armor"
+            },
+            {
+                "es": "Caparazón"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 76,
+        "generation": 3,
+        "languaje": [
+            {
+                "en": "Air Lock"
+            },
+            {
+                "es": "Esclusa de aire"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 77,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Tangled Feet"
+            },
+            {
+                "es": "Tumbos"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 78,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Motor Drive"
+            },
+            {
+                "es": "Electromotor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 79,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Rivalry"
+            },
+            {
+                "es": "Rivalidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 80,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Steadfast"
+            },
+            {
+                "es": "Impasible"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 81,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Snow Cloak"
+            },
+            {
+                "es": "Manto Níveo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 82,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Gluttony"
+            },
+            {
+                "es": "Gula"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 83,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Anger Point"
+            },
+            {
+                "es": "Irascible"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 84,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Unburden"
+            },
+            {
+                "es": "Liviano"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 85,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Heatproof"
+            },
+            {
+                "es": "Ignífugo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 86,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Simple"
+            },
+            {
+                "es": "Simple"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 87,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Dry Skin"
+            },
+            {
+                "es": "Piel Seca"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 88,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Download"
+            },
+            {
+                "es": "Descarga"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 89,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Iron Fist"
+            },
+            {
+                "es": "Puño Férreo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 90,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Poison Heal"
+            },
+            {
+                "es": "Antídoto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 91,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Adaptability"
+            },
+            {
+                "es": "Adaptable"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 92,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Skill Link"
+            },
+            {
+                "es": "Encadenado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 93,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Hydration"
+            },
+            {
+                "es": "Hidratación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 94,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Solar Power"
+            },
+            {
+                "es": "Poder Solar"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 95,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Quick Feet"
+            },
+            {
+                "es": "Pies Rápidos"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 96,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Normalize"
+            },
+            {
+                "es": "Normalidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 97,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Sniper"
+            },
+            {
+                "es": "Francotirador"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 98,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Magic Guard"
+            },
+            {
+                "es": "Muro Mágico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 99,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "No Guard"
+            },
+            {
+                "es": "Indefenso"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 100,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Stall"
+            },
+            {
+                "es": "Rezagado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 101,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Technician"
+            },
+            {
+                "es": "Experto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 102,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Leaf Guard"
+            },
+            {
+                "es": "Defensa Hoja"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 103,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Klutz"
+            },
+            {
+                "es": "Zoquete"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 104,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Mold Breaker"
+            },
+            {
+                "es": "Rompemoldes"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 105,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Super Luck"
+            },
+            {
+                "es": "Afortunado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 106,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Aftermath"
+            },
+            {
+                "es": "Detonación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 107,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Anticipation"
+            },
+            {
+                "es": "Anticipación"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 108,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Forewarn"
+            },
+            {
+                "es": "Alerta"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 109,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Unaware"
+            },
+            {
+                "es": "Ignorante"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 110,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Tinted Lens"
+            },
+            {
+                "es": "Cromolente"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 111,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Filter"
+            },
+            {
+                "es": "Filtro"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 112,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Slow Start"
+            },
+            {
+                "es": "Inicio Lento"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 113,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Scrappy"
+            },
+            {
+                "es": "Intrépido"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 114,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Storm Drain"
+            },
+            {
+                "es": "Colector"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 115,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Ice Body"
+            },
+            {
+                "es": "Gélido"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 116,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Solid Rock"
+            },
+            {
+                "es": "Roca Sólida"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 117,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Snow Warning"
+            },
+            {
+                "es": "Nevada"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 118,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Honey Gather"
+            },
+            {
+                "es": "Recogemiel"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 119,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Frisk"
+            },
+            {
+                "es": "Cacheo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 120,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Reckless"
+            },
+            {
+                "es": "Audaz"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 121,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Multitype"
+            },
+            {
+                "es": "Multitipo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 122,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Flower Gift"
+            },
+            {
+                "es": "Don Floral"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 123,
+        "generation": 4,
+        "languaje": [
+            {
+                "en": "Bad Dreams"
+            },
+            {
+                "es": "Mal Sueño"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 124,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Pickpocket"
+            },
+            {
+                "es": "Hurto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 125,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sheer Force"
+            },
+            {
+                "es": "Potencia Bruta"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 126,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Contrary"
+            },
+            {
+                "es": "Respondón"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 127,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Unnerve"
+            },
+            {
+                "es": "Nerviosismo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 128,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Defiant"
+            },
+            {
+                "es": "Competitivo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 129,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Defeatist"
+            },
+            {
+                "es": "Flaqueza"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 130,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Cursed Body"
+            },
+            {
+                "es": "Cuerpo Maldito"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 131,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Healer"
+            },
+            {
+                "es": "Alma Cura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 132,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Friend Guard"
+            },
+            {
+                "es": "Compiescolta"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 133,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Weak Armor"
+            },
+            {
+                "es": "Armadura Frágil"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 134,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Heavy Metal"
+            },
+            {
+                "es": "Metal Pesado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 135,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Light Metal"
+            },
+            {
+                "es": "Metal Liviano"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 136,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Multiscale"
+            },
+            {
+                "es": "Multiescamas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 137,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Toxic Boost"
+            },
+            {
+                "es": "Ímpetu Tóxico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 138,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Flare Boost"
+            },
+            {
+                "es": "Ímpetu Ardiente"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 139,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Harvest"
+            },
+            {
+                "es": "Cosecha"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 140,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Telepathy"
+            },
+            {
+                "es": "Telepatía"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 141,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Moody"
+            },
+            {
+                "es": "Veleta"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 142,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Overcoat"
+            },
+            {
+                "es": "Funda"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 143,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Poison Touch"
+            },
+            {
+                "es": "Toque Tóxico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 144,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Regenerator"
+            },
+            {
+                "es": "Regeneración"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 145,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Big Pecks"
+            },
+            {
+                "es": "Sacapecho"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 146,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sand Rush"
+            },
+            {
+                "es": "Ímpetu Arena"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 147,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Wonder Skin"
+            },
+            {
+                "es": "Piel Milagro"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 148,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Analytic"
+            },
+            {
+                "es": "Cálculo Final"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 149,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Illusion"
+            },
+            {
+                "es": "Ilusión"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 150,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Imposter"
+            },
+            {
+                "es": "Impostor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 151,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Infiltrator"
+            },
+            {
+                "es": "Allanamiento"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 152,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Mummy"
+            },
+            {
+                "es": "Momia"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 153,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Moxie"
+            },
+            {
+                "es": "Autoestima"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 154,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Justified"
+            },
+            {
+                "es": "Justiciero"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 155,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Rattled"
+            },
+            {
+                "es": "Cobardía"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 156,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Magic Bounce"
+            },
+            {
+                "es": "Espejo Mágico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 157,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sap Sipper"
+            },
+            {
+                "es": "Herbívoro"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 158,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Prankster"
+            },
+            {
+                "es": "Bromista"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 159,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sand Force"
+            },
+            {
+                "es": "Poder Arena"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 160,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Iron Barbs"
+            },
+            {
+                "es": "Punta Acero"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 161,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Zen Mode"
+            },
+            {
+                "es": "Modo Daruma"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 162,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Victory Star"
+            },
+            {
+                "es": "Tinovictoria"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 163,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Turboblaze"
+            },
+            {
+                "es": "Turbollama"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 164,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Teravolt"
+            },
+            {
+                "es": "Terravoltaje"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 165,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Aroma Veil"
+            },
+            {
+                "es": "Velo Aroma"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 166,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Flower Veil"
+            },
+            {
+                "es": "Velo Flor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 167,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Cheek Pouch"
+            },
+            {
+                "es": "Carrillo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 168,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Protean"
+            },
+            {
+                "es": "Mutatipo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 169,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Fur Coat"
+            },
+            {
+                "es": "Pelaje Recio"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 170,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Magician"
+            },
+            {
+                "es": "Prestidigitador"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 171,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Bulletproof"
+            },
+            {
+                "es": "Antibalas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 172,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Competitive"
+            },
+            {
+                "es": "Tenacidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 173,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Strong Jaw"
+            },
+            {
+                "es": "Mandíbula Fuerte"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 174,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Refrigerate"
+            },
+            {
+                "es": "Piel Helada"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 175,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Sweet Veil"
+            },
+            {
+                "es": "Velo Dulce"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 176,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Stance Change"
+            },
+            {
+                "es": "Cambio Táctico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 177,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Gale Wings"
+            },
+            {
+                "es": "Alas Vendaval"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 178,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Mega Launcher"
+            },
+            {
+                "es": "Megadisparador"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 179,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Grass Pelt"
+            },
+            {
+                "es": "Manto Frondoso"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 180,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Symbiosis"
+            },
+            {
+                "es": "Simbiosis"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 181,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Tough Claws"
+            },
+            {
+                "es": "Garra Dura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 182,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Pixilate"
+            },
+            {
+                "es": "Piel Feérica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 183,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Gooey"
+            },
+            {
+                "es": "Baba"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 184,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Aerilate"
+            },
+            {
+                "es": "Piel Celeste"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 185,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Parental Bond"
+            },
+            {
+                "es": "Amor Filial"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 186,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Dark Aura"
+            },
+            {
+                "es": "Aura Oscura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 187,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Fairy Aura"
+            },
+            {
+                "es": "Aura Feérica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 188,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Aura Break"
+            },
+            {
+                "es": "Rompeaura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 189,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Primordial Sea"
+            },
+            {
+                "es": "Mar del Albor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 190,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Desolate Land"
+            },
+            {
+                "es": "Tierra del Ocaso"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 191,
+        "generation": 6,
+        "languaje": [
+            {
+                "en": "Delta Stream"
+            },
+            {
+                "es": "Ráfaga Delta"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 192,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Stamina"
+            },
+            {
+                "es": "Firmeza"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 193,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Wimp Out"
+            },
+            {
+                "es": "Huida"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 194,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Emergency Exit"
+            },
+            {
+                "es": "Retirada"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 195,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Water Compaction"
+            },
+            {
+                "es": "Hidrorrefuerzo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 196,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Merciless"
+            },
+            {
+                "es": "Ensañamiento"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 197,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Shields Down"
+            },
+            {
+                "es": "Escudo Limitado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 198,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Stakeout"
+            },
+            {
+                "es": "Vigilante"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 199,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Water Bubble"
+            },
+            {
+                "es": "Pompa"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 200,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Steelworker"
+            },
+            {
+                "es": "Acero Templado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 201,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Berserk"
+            },
+            {
+                "es": "Cólera"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 202,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Slush Rush"
+            },
+            {
+                "es": "Quitanieves"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 203,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Long Reach"
+            },
+            {
+                "es": "Remoto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 204,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Liquid Voice"
+            },
+            {
+                "es": "Voz Fluida"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 205,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Triage"
+            },
+            {
+                "es": "Primer Auxilio"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 206,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Galvanize"
+            },
+            {
+                "es": "Piel Eléctrica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 207,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Surge Surfer"
+            },
+            {
+                "es": "Cola Surf"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 208,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Schooling"
+            },
+            {
+                "es": "Banco"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 209,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Disguise"
+            },
+            {
+                "es": "Disfraz"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 210,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Battle Bond"
+            },
+            {
+                "es": "Fuerte Afecto"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 211,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Power Construct"
+            },
+            {
+                "es": "Agrupamiento"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 212,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Corrosion"
+            },
+            {
+                "es": "Corrosión"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 213,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Comatose"
+            },
+            {
+                "es": "Letargo Perenne"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 214,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Queenly Majesty"
+            },
+            {
+                "es": "Regia Presencia"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 215,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Innards Out"
+            },
+            {
+                "es": "Revés"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 216,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Dancer"
+            },
+            {
+                "es": "Pareja de Baile"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 217,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Battery"
+            },
+            {
+                "es": "Batería"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 218,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Fluffy"
+            },
+            {
+                "es": "Peluche"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 219,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Dazzling"
+            },
+            {
+                "es": "Cuerpo Vívido"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 220,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Soul-Heart"
+            },
+            {
+                "es": "Coránima"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 221,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Tangling Hair"
+            },
+            {
+                "es": "Rizos Rebeldes"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 222,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Receiver"
+            },
+            {
+                "es": "Receptor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 223,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Power of Alchemy"
+            },
+            {
+                "es": "Reacción Química"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 224,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Beast Boost"
+            },
+            {
+                "es": "Ultraimpulso"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 225,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "RKS System"
+            },
+            {
+                "es": "Sistema Alfa"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 226,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Electric Surge"
+            },
+            {
+                "es": "Electrogénesis"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 227,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Psychic Surge"
+            },
+            {
+                "es": "Psicogénesis"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 228,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Misty Surge"
+            },
+            {
+                "es": "Nebulogénesis"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 229,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Grassy Surge"
+            },
+            {
+                "es": "Herbogénesis"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 230,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Full Metal Body"
+            },
+            {
+                "es": "Guardia Metálica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 231,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Shadow Shield"
+            },
+            {
+                "es": "Guardia Espectro"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 232,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Prism Armor"
+            },
+            {
+                "es": "Armadura Prisma"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 233,
+        "generation": 7,
+        "languaje": [
+            {
+                "en": "Neuroforce"
+            },
+            {
+                "es": "Fuerza Cerebral"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 234,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Intrepid Sword"
+            },
+            {
+                "es": "Espada Indómita"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 235,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Dauntless Shield"
+            },
+            {
+                "es": "Escudo Recio"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 236,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Libero"
+            },
+            {
+                "es": "Líbero"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 237,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Ball Fetch"
+            },
+            {
+                "es": "Recogebolas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 238,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Cotton Down"
+            },
+            {
+                "es": "Pelusa"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 239,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Propeller Tail"
+            },
+            {
+                "es": "Hélice Caudal"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 240,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Mirror Armor"
+            },
+            {
+                "es": "Coraza Reflejo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 241,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Gulp Missile"
+            },
+            {
+                "es": "Tragamisil"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 242,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Stalwart"
+            },
+            {
+                "es": "Acérrimo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 243,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Steam Engine"
+            },
+            {
+                "es": "Combustible"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 244,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Punk Rock"
+            },
+            {
+                "es": "Punk Rock"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 245,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Sand Spit"
+            },
+            {
+                "es": "Expulsarena"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 246,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Ice Scales"
+            },
+            {
+                "es": "Escama de Hielo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 247,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Ripen"
+            },
+            {
+                "es": "Maduración"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 248,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Ice Face"
+            },
+            {
+                "es": "Cara de Hielo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 249,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Power Spot"
+            },
+            {
+                "es": "Fuente Energía"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 250,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Mimicry"
+            },
+            {
+                "es": "Mimetismo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 251,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Screen Cleaner"
+            },
+            {
+                "es": "Antibarrera"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 252,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Steely Spirit"
+            },
+            {
+                "es": "Alma Acerada"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 253,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Perish Body"
+            },
+            {
+                "es": "Cuerpo Mortal"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 254,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Wandering Spirit"
+            },
+            {
+                "es": "Alma Errante"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 255,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Gorilla Tactics"
+            },
+            {
+                "es": "Monotema"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 256,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Neutralizing Gas"
+            },
+            {
+                "es": "Gas Reactivo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 257,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Pastel Veil"
+            },
+            {
+                "es": "Velo Pastel"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 258,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Hunger Switch"
+            },
+            {
+                "es": "Mutapetito"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 259,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Quick Draw"
+            },
+            {
+                "es": "Mano Rápida"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 260,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Unseen Fist"
+            },
+            {
+                "es": "Puño Invisible"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 261,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Curious Medicine"
+            },
+            {
+                "es": "Medicina Extraña"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 262,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Transistor"
+            },
+            {
+                "es": "Transistor"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 263,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Dragon’s Maw"
+            },
+            {
+                "es": "Mandíbula Dragón"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 264,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Chilling Neigh"
+            },
+            {
+                "es": "Relincho Blanco"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 265,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "Grim Neigh"
+            },
+            {
+                "es": "Relincho Negro"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 266,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "As One"
+            },
+            {
+                "es": "Unidad Ecuestre"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 267,
+        "generation": 8,
+        "languaje": [
+            {
+                "en": "As One"
+            },
+            {
+                "es": "Unidad Ecuestre"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 268,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Lingering Aroma"
+            },
+            {
+                "es": "Olor Persistente"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 269,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Seed Sower"
+            },
+            {
+                "es": "Disemillar"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 270,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Thermal Exchange"
+            },
+            {
+                "es": "Termoconversión"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 271,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Anger Shell"
+            },
+            {
+                "es": "Coraza Ira"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 272,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Purifying Salt"
+            },
+            {
+                "es": "Sal Purificadora"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 273,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Well-Baked Body"
+            },
+            {
+                "es": "Cuerpo Horneado"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 274,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Wind Rider"
+            },
+            {
+                "es": "Surcavientos"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 275,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Guard Dog"
+            },
+            {
+                "es": "Perro Guardián"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 276,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Rocky Payload"
+            },
+            {
+                "es": "Transportarrocas"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 277,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Wind Power"
+            },
+            {
+                "es": "Energía Eólica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 278,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Zero to Hero"
+            },
+            {
+                "es": "Cambio Heroico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 279,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Commander"
+            },
+            {
+                "es": "Comandar"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 280,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Electromorphosis"
+            },
+            {
+                "es": "Dinamo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 281,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Protosynthesis"
+            },
+            {
+                "es": "Paleosíntesis"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 282,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Quark Drive"
+            },
+            {
+                "es": "Carga Cuark"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 283,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Good as Gold"
+            },
+            {
+                "es": "Cuerpo Áureo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 284,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Vessel of Ruin"
+            },
+            {
+                "es": "Caldero Debacle"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 285,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Sword of Ruin"
+            },
+            {
+                "es": "Espada Debacle"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 286,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Tablets of Ruin"
+            },
+            {
+                "es": "Tablilla Debacle"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 287,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Beads of Ruin"
+            },
+            {
+                "es": "Abalorio Debacle"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 288,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Orichalcum Pulse"
+            },
+            {
+                "es": "Latido Oricalco"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 289,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Hadron Engine"
+            },
+            {
+                "es": "Motor Hadrónico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 290,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Opportunist"
+            },
+            {
+                "es": "Oportunista"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 291,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Cud Chew"
+            },
+            {
+                "es": "Rumia"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 292,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Sharpness"
+            },
+            {
+                "es": "Cortante"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 293,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Supreme Overlord"
+            },
+            {
+                "es": "General Supremo"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 294,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Costar"
+            },
+            {
+                "es": "Unísono"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 295,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Toxic Debris"
+            },
+            {
+                "es": "Capa Tóxica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 296,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Armor Tail"
+            },
+            {
+                "es": "Cola Armadura"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 297,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Earth Eater"
+            },
+            {
+                "es": "Geofagia"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 298,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Mycelium Might"
+            },
+            {
+                "es": "Poder Fúngico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 299,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Mind’s Eye"
+            },
+            {
+                "es": "Ojo Mental "
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 300,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Supersweet Syrup"
+            },
+            {
+                "es": "Néctar Dulce"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 301,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Hospitality"
+            },
+            {
+                "es": "Hospitalidad"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 302,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Toxic Chain"
+            },
+            {
+                "es": "Cadena Tóxica"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 303,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Embody Aspect"
+            },
+            {
+                "es": "Evocarrecuerdos"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 304,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Tera Shift"
+            },
+            {
+                "es": "Teracambio"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 305,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Tera Shell"
+            },
+            {
+                "es": "Teracaparazón"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 306,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Teraform Zero"
+            },
+            {
+                "es": "Teraformación 0"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 307,
+        "generation": 9,
+        "languaje": [
+            {
+                "en": "Poison Puppeteer"
+            },
+            {
+                "es": "Títere Tóxico"
+            }
+        ],
+        "home": true
+    },
+    {
+        "id": 10001,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Mountaineer"
+            },
+            {
+                "es": "Montañero"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10002,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Wave Rider"
+            },
+            {
+                "es": "Monta Ola"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10003,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Skater"
+            },
+            {
+                "es": "Patinador"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10004,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Thrust"
+            },
+            {
+                "es": "Empuje"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10005,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Perception"
+            },
+            {
+                "es": "Percepción"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10006,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Parry"
+            },
+            {
+                "es": "Parar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10007,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Instinct"
+            },
+            {
+                "es": "Instinto"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10008,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Dodge"
+            },
+            {
+                "es": "Esquivar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10009,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Jagged Edge"
+            },
+            {
+                "es": "Borde Dentado"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10010,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Frostbite"
+            },
+            {
+                "es": "Congelación"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10011,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Tenacity"
+            },
+            {
+                "es": "Tenacidad"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10012,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Pride"
+            },
+            {
+                "es": "Orgullo"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10013,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Deep Sleep"
+            },
+            {
+                "es": "Sueño Profundo"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10014,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Power Nap"
+            },
+            {
+                "es": "Siesta de Poder"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10015,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Spirit"
+            },
+            {
+                "es": "Espíritu"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10016,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Warm Blanket"
+            },
+            {
+                "es": "Manta Cálidad"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10017,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Gulp"
+            },
+            {
+                "es": "Tragar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10018,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Herbivore"
+            },
+            {
+                "es": "Herbívoro"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10019,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sandpit"
+            },
+            {
+                "es": "Arenal"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10020,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Hot Blooded"
+            },
+            {
+                "es": "Sangre Caliente"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10021,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Medic"
+            },
+            {
+                "es": "Médico"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10022,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Life Force"
+            },
+            {
+                "es": "Fuerza Vital"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10023,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Lunchbox"
+            },
+            {
+                "es": "Lonchera"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10024,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Nurse"
+            },
+            {
+                "es": "Enfermera"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10025,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Melee"
+            },
+            {
+                "es": "Combate Cercano"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10026,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sponge"
+            },
+            {
+                "es": "Esponja"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10027,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Bodyguard"
+            },
+            {
+                "es": "Guardaespaldas"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10028,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Hero"
+            },
+            {
+                "es": "Héroe"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10029,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Last Bastion"
+            },
+            {
+                "es": "Último Bastión"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10030,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Stealth"
+            },
+            {
+                "es": "Sigilo"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10031,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Vanguard"
+            },
+            {
+                "es": "Vanguardia"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10032,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Nomad"
+            },
+            {
+                "es": "Nómada"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10033,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sequence"
+            },
+            {
+                "es": "Secuencia"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10034,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Grass Cloak"
+            },
+            {
+                "es": "Manto Hierba"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10035,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Celebrate"
+            },
+            {
+                "es": "Celebrar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10036,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Lullaby"
+            },
+            {
+                "es": "Canción de Cuna"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10037,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Calming"
+            },
+            {
+                "es": "Calmante"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10038,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Daze"
+            },
+            {
+                "es": "Aturdimiento"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10039,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Frighten"
+            },
+            {
+                "es": "Espantar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10040,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Interference"
+            },
+            {
+                "es": "Interferencia"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10041,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Mood Maker"
+            },
+            {
+                "es": "Animar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10042,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Confidence"
+            },
+            {
+                "es": "Confianza"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10043,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Fortune"
+            },
+            {
+                "es": "Fortuna"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10044,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Bonanza"
+            },
+            {
+                "es": "Bonanza"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10045,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Explode"
+            },
+            {
+                "es": "Explotar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10046,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Omnipotent"
+            },
+            {
+                "es": "Omnipotente"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10047,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Share"
+            },
+            {
+                "es": "Compartir"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10048,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Black Hole"
+            },
+            {
+                "es": "Agujero negro"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10049,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Shadow Dash"
+            },
+            {
+                "es": "Carrera Sombra"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10050,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Sprint"
+            },
+            {
+                "es": "Carrera"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10051,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Disgust"
+            },
+            {
+                "es": "Disgusto"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10052,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "High-rise"
+            },
+            {
+                "es": "Ascenso"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10053,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Climber"
+            },
+            {
+                "es": "Escalador"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10054,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Flame Boost"
+            },
+            {
+                "es": "Ímpetu de llama"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10055,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Aqua Boost"
+            },
+            {
+                "es": "Impulso de agua"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10056,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Run Up"
+            },
+            {
+                "es": "Corrida"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10057,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Conqueror"
+            },
+            {
+                "es": "Conquistador"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10058,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Shackle"
+            },
+            {
+                "es": "Encadenar"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10059,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Decoy"
+            },
+            {
+                "es": "Señuelo"
+            }
+        ],
+        "home": false
+    },
+    {
+        "id": 10060,
+        "generation": 5,
+        "languaje": [
+            {
+                "en": "Shield"
+            },
+            {
+                "es": "Escudo"
+            }
+        ],
+        "home": false
+    }
+]

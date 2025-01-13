@@ -1,0 +1,358 @@
+<div class="page-container">
+
+  <div class="div-filters-move animate-fade-in">
+
+    @if (moveInfo) {
+    <div class="move-info animate-slide-in">
+      <button class="close-button-info" (click)="closeMoveInfo()"><i class="bi bi-x"></i></button>
+
+      <div class="info-data">
+
+        <div class="move-info-name" [style]="{'background': getTypeColor(moveInfo.type)}">
+          @if(currentLanguage === 'en'){
+          {{moveInfo.languaje[0].en | formatName}}
+          }@else if(currentLanguage === 'es'){
+          {{moveInfo.languaje[1].es | formatName}}
+          }
+          <img class="type-info-img" [src]="'/types/'+moveInfo.type+'.png'" alt={{moveInfo.type}} />
+          <img class="damage-info-img" [src]="'/damage_class/'+moveInfo.damage_class+'.png'" alt={{moveInfo.damage_class}} />
+        </div>
+
+        <div class="move-info-name-alt">
+          @if(currentLanguage === 'es'){
+          (en) {{moveInfo.languaje[0].en | formatName}}
+          }@else if(currentLanguage === 'en'){
+          (es) {{moveInfo.languaje[1].es | formatName}}
+          }
+        </div>
+
+      </div>
+
+      <div class="div-states-drop">
+
+        <div class="info-text">
+          <img src="/symbols/info.png" class="info-symbol" alt="info"> State:
+        </div>
+
+        <div class="info-dropdown-button" (click)="toggleDropdown(5)">
+          <img [src]="'/symbols/'+moveInfo.state+'.png' " alt="{{ moveInfo.state }}" class="states-dropdown-icon">
+          <span>{{ moveInfo.state }}</span>
+        </div>
+
+        <div class="states-dropdown-content" [class.open]="isDropdownOpenInfoState">
+          @for (state of stateList; track $index) {
+          <div class="states-dropdown-item" (click)="updateMoveInfoState(moveInfo, state.value)">
+            <img [src]="state.img " alt="{{ state.name }}" class="states-dropdown-icon">
+            <span>{{ state.name }}</span>
+          </div>
+          }
+        </div>
+
+      </div>
+
+      <div class="div-games-drop">
+
+        <div class="info-text">Game: </div>
+
+        <div class="info-dropdown-button" (click)="toggleDropdown(6)"
+          [style]="'background:'+getBackgroundByGameName(moveInfo.game)">
+          <span>{{ moveInfo.game }}</span>
+        </div>
+
+        <div class="games-dropdown-content" [class.open]="isDropdownOpenInfoGame">
+          @for (game of gameList; track $index) {
+
+          @if ($index > 0 && game.group !== gameList[$index - 1].group) {
+          <div class="group-separator"></div>
+          }
+
+          <div class="games-dropdown-item" [style]="'background:'+game.background"
+            (click)="updateMoveInfoGame(moveInfo, game.name)">
+            {{ game.name }}
+          </div>
+          }
+        </div>
+
+      </div>
+
+      <div class="move-info-note">
+        <textarea id="textarea-info-move" class='textarea-info-normal' [value]="moveInfo.note" rows="2" maxlength="40"
+          placeholder="Enter note..."></textarea>
+        <div class="info-dropdown-button" [class]="{'pokemon-info-button-shiny': moveInfo.shiny === true}"
+          [class.clicked]="isButtonClicked" (click)="updateMoveInfoNote(moveInfo)">Update Note</div>
+      </div>
+
+      <div class="move-info-pokemon-div">
+        @if (moveInfo.pokemon_id === 0) {
+        <img src="/home/0.png" alt="" class="move-pokemon-img">
+        }@else {
+        @if (moveInfo.shiny) {
+        <img [src]="'/home/shiny/'+moveInfo.section+'/'+moveInfo.pokemon_id +'.png'" alt="" class="move-pokemon-img"
+          (error)="onImageError($event, moveInfo.pokemon_id)">
+        }@else{
+        <img [src]="'/home/'+moveInfo.section+'/'+moveInfo.pokemon_id +'.png'" alt="" class="move-pokemon-img"
+          (error)="onImageError($event, moveInfo.pokemon_id)">
+        }
+        }
+        @if(movePokemonInfo){
+        <div class="move-info-show-pokemon info-dropdown-button info-button-selected"
+          (click)="showPokemonMoveInfo('toggle')">
+          Stop
+        </div>
+        }@else{
+        <div class="move-info-show-pokemon info-dropdown-button" (click)="showPokemonMoveInfo('toggle')">
+          Change Pokémon
+        </div>
+        }
+      </div>
+    </div>
+    }
+
+    <div class="change-order" (click)="changeOrder()">
+      Order:
+      @if (order === 'abc') {
+      A-Z
+      }@else if (order === 'type'){
+      Type
+      }@else if (order === 'both'){
+      Both
+      }@else {
+      None
+      }
+    </div>
+
+    <div class="search-move-div">
+      <span class="animate-drop">Nº Results: </span><span style="font-weight: bold;">{{showList.length}}</span>
+      <input type="text" id="search-pokemon-move" class="search-move" placeholder="Search..."
+        (input)="onSearch($event)">
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(2)">
+        States <span class="drop-arrow" [class.open]="isDropdownOpenState">▶</span>
+        @if (filterState) {
+        <span> ({{filterState}})</span>
+        }
+      </div>
+      <div class="states-menu animate-drop" [class.open]="isDropdownOpenState">
+        @for (item of stateList; track $index) {
+        <div [id]="'state-option-' + item.name" class="state-item normal-item"
+          (click)="updateFilters(item.value, 'state')">
+          <img [src]="item.img " alt="{{ item.name }}" class="states-filter-icon">
+          <span class="state-title">{{ item.name }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(3)">
+        Games <span class="drop-arrow" [class.open]="isDropdownOpenGames">▶</span>
+        @if (filterGame) {
+        <span> ({{filterGame}})</span>
+        }
+      </div>
+      <div class="games-menu animate-drop" [class.open]="isDropdownOpenGames">
+        @for (item of gameList; track $index) {
+        <div [id]="'game-option-' + item.name" class="game-item normal-item" (click)="updateFilters(item.name, 'game')">
+          <span class="game-title">{{ item.name }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(4)">
+        Note <span class="drop-arrow" [class.open]="isDropdownOpenNote">▶</span>
+        @if (filterNote === true) {
+        <span> (Yes)</span>
+        }@else if (filterNote === false) {
+        <span> (No)</span>
+        }
+      </div>
+      <div class="note-menu animate-drop" [class.open]="isDropdownOpenNote">
+        <div id="note-option-true" class="note-item normal-item" (click)="updateFilters(true, 'note')">
+          <span class="note-title">Yes</span>
+        </div>
+        <div id="note-option-false" class="note-item normal-item" (click)="updateFilters(false, 'note')">
+          <span class="note-title">No</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" (click)="toggleDropdown(1)">
+        Pokémon <span class="drop-arrow" [class.open]="isDropdownOpenPokemon">▶</span>
+        @if (filterPokemon === true) {
+        <span> (Yes)</span>
+        }@else if (filterPokemon === false) {
+        <span> (No)</span>
+        }
+      </div>
+      <div class="note-menu animate-drop" [class.open]="isDropdownOpenPokemon">
+        <div id="pokemon-option-true" class="note-item normal-item" (click)="updateFilters(true, 'pokemon')">
+          <span class="note-title">Yes</span>
+        </div>
+        <div id="pokemon-option-false" class="note-item normal-item" (click)="updateFilters(false, 'pokemon')">
+          <span class="note-title">No</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="content-wrapper">
+
+    <div class="div-titles-move">
+
+      @if (movePokemonInfo) {
+
+      <div id="move-info-title-learn" class="gen-title info-title title-selected"
+        (click)="showPokemonMoveInfo('learn')">Learn by:</div>
+      <div id="move-info-title-all" class="gen-title info-title" (click)="showPokemonMoveInfo('all')">All:</div>
+
+      }@else{
+
+      @for (title of titleList; track $index) {
+
+      <div [id]="'move-title-'+title.number" class="gen-title"
+        (click)="titleSelected != title.number && updateShowList(title.number)">
+
+        @if(titleSelected === title.number){
+
+        <div class="title-selected-container">
+          <span class="title-left">{{title.name}}</span>
+          <span class="title-right">({{countCaughtSection}}/{{countAllSection}}) {{percentageBarSection}}%</span>
+        </div>
+
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar" [style.width.%]="percentageBarSection"></div>
+        </div>
+
+        }@else{
+        {{title.name}}
+        }
+
+      </div>
+
+      }
+      }
+
+    </div>
+    @if (movePokemonInfo && moveInfo) {
+
+    <div class="search-container" [class]="{'shiny-container': shinyPokemon, 'normal-container': !shinyPokemon}">
+
+      <div class="search-move-pokemon-div">
+        <input type="text" class="search-pokemon" placeholder="Search..." (input)="onSearchPokemon($event)">
+      </div>
+
+      <div class="pokemon-info-change-shiny" [class]="{'change-shiny': shinyPokemon, 'change-normal': !shinyPokemon}"
+        (click)="changeShiny()">
+        Shiny:
+        @if (shinyPokemon) {
+        Yes
+        }@else{
+        No
+        }
+
+      </div>
+
+    </div>
+
+    <div class="pokemon-container animate-fade-in"
+      [class]="{'shiny-container': shinyPokemon, 'normal-container': !shinyPokemon}">
+
+      @for (pokemon of showPokemonList; track $index) {
+
+      @defer(on viewport) {
+
+      <div class="pokemon-card" [id]="'pokemon-card-'+ pokemon.section + '-' + pokemon.id"
+        (click)="updateMoveInfoPokemon(moveInfo, pokemon)"
+        [class]="{'selected-card': pokemon.section === moveInfo.section && pokemon.id === moveInfo.pokemon_id && shinyPokemon === moveInfo.shiny}"
+        [style]="{ 'background': (pokemon.type1 === 'none' && pokemon.type2 === 'none') ? 'white' :
+                pokemon.type2 !== 'none' ? 'linear-gradient(to bottom right, ' + getTypeColor(pokemon.type1) + ' 30% , ' + getTypeColor(pokemon.type2) + ' 70%)' :
+                getTypeColor(pokemon.type1)
+            }" (mouseenter)="onCardHover(pokemon.id, pokemon.section)" (mouseleave)="onCardMouseLeave()">
+
+        @if (pokemon.name.includes('female')) {
+        <img class="female" [src]="'/symbols/female.png'" alt='female' />
+        }
+
+        @if (!this.shinyPokemon){
+        <img [src]="'/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
+          alt="{{ pokemon.name }}" />
+        }@else {
+        <img [src]="'/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
+          (error)="onImageError($event, pokemon.id)" alt="{{ pokemon.name }}" />
+        }
+
+        @if(hoveredCardId === pokemon.id && hoveredCardSection === pokemon.section){
+        <div class="hover-name" [class]="{ 'hover-name-top': hoverPosition === 'top', 
+                'hover-name-left': hoverAlignment === 'left', 'hover-name-right': hoverAlignment === 'right' }">
+          {{ pokemon.name | formatName }}
+        </div>
+        }
+
+      </div>
+
+      }@placeholder {
+      <div class="pokemon-card" style="background-color: rgba(21, 88, 32, 0.5);">
+        #{{pokemon.id}}
+      </div>
+      }
+
+      }
+
+    </div>
+
+
+    }@else {
+
+    <div class="move-container animate-fade-in">
+      @for (move of showList; track $index) {
+
+      @if (move.home) {
+
+      @defer(on viewport) {
+
+      <div [id]="'move-card-'+move.id" class="move-card" (click)="setMoveInfo(move)" (dblclick)="setMoveStateDC(move.id, getMoveStateLS(move.id))"
+        [style]="{'background': getTypeColor(move.type)}" [class]="{
+          'no-registered': getMoveStateLS(move.id) === 'Uncaught',
+          'to-do-registered': getMoveStateLS(move.id) === 'Wanted',
+          'registered': getMoveStateLS(move.id) === 'Caught'
+        }">
+
+        @if (currentLanguage === 'en') {
+        {{move.languaje[0].en}}
+        }@else if(currentLanguage === 'es'){
+        {{move.languaje[1].es}}
+        }
+        <img class="type-card-img" [src]="'/types/'+move.type+'.png'" alt={{move.type}} />
+        @if (getMoveStateLS(move.id) === 'Caught') {
+        <img class="pokeball" [src]="'/symbols/Caught.png'" alt='catched' />
+        }@else if (getMoveStateLS(move.id) === 'Wanted') {
+        <img class="pokeball" [src]="'/symbols/Wanted.png'" alt='wanted' />
+        }@else if (getMoveStateLS(move.id) === 'Uncaught') {
+        <img class="pokeball" [src]="'/symbols/Uncaught.png'" alt='uncaught' />
+        }
+
+      </div>
+
+      }@placeholder {
+      <div class="move-card" style="background-color: rgba(21, 88, 32, 0.5);">
+        #{{move.id}}
+      </div>
+
+      }
+      }
+      }
+
+    </div>
+
+    }
+
+  </div>
+
+</div>

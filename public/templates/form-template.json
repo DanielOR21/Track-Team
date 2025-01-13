@@ -1,0 +1,1930 @@
+[
+    {
+        "id": 10001,
+        "name": "unown-b",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10002,
+        "name": "unown-c",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10003,
+        "name": "unown-d",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10004,
+        "name": "unown-e",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10005,
+        "name": "unown-f",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10006,
+        "name": "unown-g",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10007,
+        "name": "unown-h",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10008,
+        "name": "unown-i",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10009,
+        "name": "unown-j",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10010,
+        "name": "unown-k",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10011,
+        "name": "unown-l",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10012,
+        "name": "unown-m",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10013,
+        "name": "unown-n",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10014,
+        "name": "unown-o",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10015,
+        "name": "unown-p",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10016,
+        "name": "unown-q",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10017,
+        "name": "unown-r",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10018,
+        "name": "unown-s",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10019,
+        "name": "unown-t",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10020,
+        "name": "unown-u",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10021,
+        "name": "unown-v",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10022,
+        "name": "unown-w",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10023,
+        "name": "unown-x",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10024,
+        "name": "unown-y",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10025,
+        "name": "unown-z",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10026,
+        "name": "unown-exclamation",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10027,
+        "name": "unown-interrogation",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 201,
+        "section": "form"
+    },
+    {
+        "id": 10031,
+        "name": "deoxys-attack",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 386,
+        "section": "form"
+    },
+    {
+        "id": 10032,
+        "name": "deoxys-defense",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 386,
+        "section": "form"
+    },
+    {
+        "id": 10033,
+        "name": "deoxys-speed",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 386,
+        "section": "form"
+    },
+    {
+        "id": 10034,
+        "name": "burmy-sandy",
+        "type1": "bug",
+        "type2": "none",
+        "original_id": 412,
+        "section": "form"
+    },
+    {
+        "id": 10035,
+        "name": "burmy-trash",
+        "type1": "bug",
+        "type2": "none",
+        "original_id": 412,
+        "section": "form"
+    },
+    {
+        "id": 10036,
+        "name": "wormadam-sandy",
+        "type1": "bug",
+        "type2": "ground",
+        "original_id": 413,
+        "section": "form"
+    },
+    {
+        "id": 10037,
+        "name": "wormadam-trash",
+        "type1": "bug",
+        "type2": "steel",
+        "original_id": 413,
+        "section": "form"
+    },
+    {
+        "id": 10039,
+        "name": "shellos-east",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 422,
+        "section": "form"
+    },
+    {
+        "id": 10040,
+        "name": "gastrodon-east",
+        "type1": "water",
+        "type2": "ground",
+        "original_id": 423,
+        "section": "form"
+    },
+    {
+        "id": 10058,
+        "name": "rotom-heat",
+        "type1": "electric",
+        "type2": "fire",
+        "original_id": 479,
+        "section": "form"
+    },
+    {
+        "id": 10059,
+        "name": "rotom-wash",
+        "type1": "electric",
+        "type2": "water",
+        "original_id": 479,
+        "section": "form"
+    },
+    {
+        "id": 10060,
+        "name": "rotom-frost",
+        "type1": "electric",
+        "type2": "ice",
+        "original_id": 479,
+        "section": "form"
+    },
+    {
+        "id": 10061,
+        "name": "rotom-fan",
+        "type1": "electric",
+        "type2": "flying",
+        "original_id": 479,
+        "section": "form"
+    },
+    {
+        "id": 10062,
+        "name": "rotom-mow",
+        "type1": "electric",
+        "type2": "grass",
+        "original_id": 479,
+        "section": "form"
+    },
+    {
+        "id": 10064,
+        "name": "shaymin-sky",
+        "type1": "grass",
+        "type2": "none",
+        "original_id": 492,
+        "section": "form"
+    },
+    {
+        "id": 10066,
+        "name": "basculin-blue-striped",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 550,
+        "section": "form"
+    },
+    {
+        "id": 10068,
+        "name": "deerling-summer",
+        "type1": "normal",
+        "type2": "grass",
+        "original_id": 585,
+        "section": "form"
+    },
+    {
+        "id": 10069,
+        "name": "deerling-autumn",
+        "type1": "normal",
+        "type2": "grass",
+        "original_id": 585,
+        "section": "form"
+    },
+    {
+        "id": 10070,
+        "name": "deerling-winter",
+        "type1": "normal",
+        "type2": "grass",
+        "original_id": 585,
+        "section": "form"
+    },
+    {
+        "id": 10071,
+        "name": "sawsbuck-summer",
+        "type1": "normal",
+        "type2": "grass",
+        "original_id": 586,
+        "section": "form"
+    },
+    {
+        "id": 10072,
+        "name": "sawsbuck-autumn",
+        "type1": "normal",
+        "type2": "grass",
+        "original_id": 586,
+        "section": "form"
+    },
+    {
+        "id": 10073,
+        "name": "sawsbuck-winter",
+        "type1": "normal",
+        "type2": "grass",
+        "original_id": 586,
+        "section": "form"
+    },
+    {
+        "id": 10079,
+        "name": "tornadus-therian",
+        "type1": "flying",
+        "type2": "none",
+        "original_id": 641,
+        "section": "form"
+    },
+    {
+        "id": 10080,
+        "name": "thundurus-therian",
+        "type1": "electric",
+        "type2": "flying",
+        "original_id": 642,
+        "section": "form"
+    },
+    {
+        "id": 10081,
+        "name": "landorus-therian",
+        "type1": "ground",
+        "type2": "flying",
+        "original_id": 645,
+        "section": "form"
+    },
+    {
+        "id": 10084,
+        "name": "keldeo-resolute",
+        "type1": "water",
+        "type2": "fighting",
+        "original_id": 647,
+        "section": "form"
+    },
+    {
+        "id": 10086,
+        "name": "vivillon-icy-snow",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10087,
+        "name": "vivillon-polar",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10088,
+        "name": "vivillon-tundra",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10089,
+        "name": "vivillon-continental",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10090,
+        "name": "vivillon-garden",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10091,
+        "name": "vivillon-elegant",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10092,
+        "name": "vivillon-modern",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10093,
+        "name": "vivillon-marine",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10094,
+        "name": "vivillon-archipelago",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10095,
+        "name": "vivillon-high-plains",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10096,
+        "name": "vivillon-sandstorm",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10097,
+        "name": "vivillon-river",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10098,
+        "name": "vivillon-monsoon",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10099,
+        "name": "vivillon-savanna",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10100,
+        "name": "vivillon-sun",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10101,
+        "name": "vivillon-ocean",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10102,
+        "name": "vivillon-jungle",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10161,
+        "name": "vivillon-fancy",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10162,
+        "name": "vivillon-poke-ball",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 666,
+        "section": "form"
+    },
+    {
+        "id": 10103,
+        "name": "flabebe-yellow",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 669,
+        "section": "form"
+    },
+    {
+        "id": 10104,
+        "name": "flabebe-orange",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 669,
+        "section": "form"
+    },
+    {
+        "id": 10105,
+        "name": "flabebe-blue",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 669,
+        "section": "form"
+    },
+    {
+        "id": 10106,
+        "name": "flabebe-white",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 669,
+        "section": "form"
+    },
+    {
+        "id": 10107,
+        "name": "floette-yellow",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 670,
+        "section": "form"
+    },
+    {
+        "id": 10108,
+        "name": "floette-orange",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 670,
+        "section": "form"
+    },
+    {
+        "id": 10109,
+        "name": "floette-blue",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 670,
+        "section": "form"
+    },
+    {
+        "id": 10110,
+        "name": "floette-white",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 670,
+        "section": "form"
+    },
+    {
+        "id": 10111,
+        "name": "florges-yellow",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 671,
+        "section": "form"
+    },
+    {
+        "id": 10112,
+        "name": "florges-orange",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 671,
+        "section": "form"
+    },
+    {
+        "id": 10113,
+        "name": "florges-blue",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 671,
+        "section": "form"
+    },
+    {
+        "id": 10114,
+        "name": "florges-white",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 671,
+        "section": "form"
+    },
+    {
+        "id": 10115,
+        "name": "furfrou-heart",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10116,
+        "name": "furfrou-star",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10117,
+        "name": "furfrou-diamond",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10118,
+        "name": "furfrou-debutante",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10119,
+        "name": "furfrou-matron",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10120,
+        "name": "furfrou-dandy",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10121,
+        "name": "furfrou-la-reine",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10122,
+        "name": "furfrou-kabuki",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10123,
+        "name": "furfrou-pharaoh",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 676,
+        "section": "form"
+    },
+    {
+        "id": 10126,
+        "name": "pumpkaboo-small",
+        "type1": "ghost",
+        "type2": "grass",
+        "original_id": 710,
+        "section": "form"
+    },
+    {
+        "id": 10127,
+        "name": "pumpkaboo-large",
+        "type1": "ghost",
+        "type2": "grass",
+        "original_id": 710,
+        "section": "form"
+    },
+    {
+        "id": 10128,
+        "name": "pumpkaboo-super",
+        "type1": "ghost",
+        "type2": "grass",
+        "original_id": 710,
+        "section": "form"
+    },
+    {
+        "id": 10129,
+        "name": "gourgeist-small",
+        "type1": "ghost",
+        "type2": "grass",
+        "original_id": 711,
+        "section": "form"
+    },
+    {
+        "id": 10130,
+        "name": "gourgeist-large",
+        "type1": "ghost",
+        "type2": "grass",
+        "original_id": 711,
+        "section": "form"
+    },
+    {
+        "id": 10131,
+        "name": "gourgeist-super",
+        "type1": "ghost",
+        "type2": "grass",
+        "original_id": 711,
+        "section": "form"
+    },
+    {
+        "id": 10188,
+        "name": "hoopa-unbound",
+        "type1": "psychic",
+        "type2": "dark",
+        "original_id": 720,
+        "section": "form"
+    },
+    {
+        "id": 10196,
+        "name": "pikachu-original-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10197,
+        "name": "pikachu-hoenn-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10198,
+        "name": "pikachu-sinnoh-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10199,
+        "name": "pikachu-unova-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10200,
+        "name": "pikachu-kalos-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10201,
+        "name": "pikachu-alola-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10218,
+        "name": "greninja-battle-bond",
+        "type1": "water",
+        "type2": "dark",
+        "original_id": 658,
+        "section": "form"
+    },
+    {
+        "id": 10340,
+        "name": "zygarde-10",
+        "type1": "dragon",
+        "type2": "ground",
+        "original_id": 718,
+        "section": "form"
+    },
+    {
+        "id": 10220,
+        "name": "zygarde-10-power-construct",
+        "type1": "dragon",
+        "type2": "ground",
+        "original_id": 718,
+        "section": "form"
+    },
+    {
+        "id": 10221,
+        "name": "zygarde-50-power-construct",
+        "type1": "dragon",
+        "type2": "ground",
+        "original_id": 718,
+        "section": "form"
+    },
+    {
+        "id": 10225,
+        "name": "oricorio-pom-pom",
+        "type1": "electric",
+        "type2": "flying",
+        "original_id": 741,
+        "section": "form"
+    },
+    {
+        "id": 10226,
+        "name": "oricorio-pau",
+        "type1": "psychic",
+        "type2": "flying",
+        "original_id": 741,
+        "section": "form"
+    },
+    {
+        "id": 10227,
+        "name": "oricorio-sensu",
+        "type1": "ghost",
+        "type2": "flying",
+        "original_id": 741,
+        "section": "form"
+    },
+    {
+        "id": 10228,
+        "name": "lycanroc-midnight",
+        "type1": "rock",
+        "type2": "none",
+        "original_id": 745,
+        "section": "form"
+    },
+    {
+        "id": 10256,
+        "name": "minior-orange",
+        "type1": "rock",
+        "type2": "flying",
+        "original_id": 774,
+        "section": "form"
+    },
+    {
+        "id": 10257,
+        "name": "minior-yellow",
+        "type1": "rock",
+        "type2": "flying",
+        "original_id": 774,
+        "section": "form"
+    },
+    {
+        "id": 10258,
+        "name": "minior-green",
+        "type1": "rock",
+        "type2": "flying",
+        "original_id": 774,
+        "section": "form"
+    },
+    {
+        "id": 10259,
+        "name": "minior-blue",
+        "type1": "rock",
+        "type2": "flying",
+        "original_id": 774,
+        "section": "form"
+    },
+    {
+        "id": 10260,
+        "name": "minior-indigo",
+        "type1": "rock",
+        "type2": "flying",
+        "original_id": 774,
+        "section": "form"
+    },
+    {
+        "id": 10261,
+        "name": "minior-violet",
+        "type1": "rock",
+        "type2": "flying",
+        "original_id": 774,
+        "section": "form"
+    },
+    {
+        "id": 10266,
+        "name": "magearna-original",
+        "type1": "steel",
+        "type2": "fairy",
+        "original_id": 801,
+        "section": "form"
+    },
+    {
+        "id": 10267,
+        "name": "pikachu-partner-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10310,
+        "name": "rockruff-own-tempo",
+        "type1": "rock",
+        "type2": "none",
+        "original_id": 744,
+        "section": "form"
+    },
+    {
+        "id": 10311,
+        "name": "lycanroc-dusk",
+        "type1": "rock",
+        "type2": "none",
+        "original_id": 745,
+        "section": "form"
+    },
+    {
+        "id": 10319,
+        "name": "pikachu-world-cap",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10343,
+        "name": "toxtricity-low-key",
+        "type1": "electric",
+        "type2": "poison",
+        "original_id": 849,
+        "section": "form"
+    },
+    {
+        "id": 10344,
+        "name": "sinistea-antique",
+        "type1": "ghost",
+        "type2": "none",
+        "original_id": 854,
+        "section": "form"
+    },
+    {
+        "id": 10345,
+        "name": "polteageist-antique",
+        "type1": "ghost",
+        "type2": "none",
+        "original_id": 855,
+        "section": "form"
+    },
+    {
+        "id": 10449,
+        "name": "alcremie-vanilla-cream-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10458,
+        "name": "alcremie-vanilla-cream-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10467,
+        "name": "alcremie-vanilla-cream-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10476,
+        "name": "alcremie-vanilla-cream-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10485,
+        "name": "alcremie-vanilla-cream-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10494,
+        "name": "alcremie-vanilla-cream-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10346,
+        "name": "alcremie-ruby-cream-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10450,
+        "name": "alcremie-ruby-cream-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10459,
+        "name": "alcremie-ruby-cream-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10468,
+        "name": "alcremie-ruby-cream-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10477,
+        "name": "alcremie-ruby-cream-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10486,
+        "name": "alcremie-ruby-cream-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10495,
+        "name": "alcremie-ruby-cream-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10347,
+        "name": "alcremie-matcha-cream-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10451,
+        "name": "alcremie-matcha-cream-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10460,
+        "name": "alcremie-matcha-cream-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10469,
+        "name": "alcremie-matcha-cream-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10478,
+        "name": "alcremie-matcha-cream-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10487,
+        "name": "alcremie-matcha-cream-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10496,
+        "name": "alcremie-matcha-cream-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10348,
+        "name": "alcremie-mint-cream-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10452,
+        "name": "alcremie-mint-cream-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10461,
+        "name": "alcremie-mint-cream-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10470,
+        "name": "alcremie-mint-cream-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10479,
+        "name": "alcremie-mint-cream-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10488,
+        "name": "alcremie-mint-cream-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10497,
+        "name": "alcremie-mint-cream-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10349,
+        "name": "alcremie-lemon-cream-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10453,
+        "name": "alcremie-lemon-cream-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10462,
+        "name": "alcremie-lemon-cream-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10471,
+        "name": "alcremie-lemon-cream-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10480,
+        "name": "alcremie-lemon-cream-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10489,
+        "name": "alcremie-lemon-cream-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10498,
+        "name": "alcremie-lemon-cream-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10350,
+        "name": "alcremie-salted-cream-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10454,
+        "name": "alcremie-salted-cream-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10463,
+        "name": "alcremie-salted-cream-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10472,
+        "name": "alcremie-salted-cream-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10481,
+        "name": "alcremie-salted-cream-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10490,
+        "name": "alcremie-salted-cream-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10499,
+        "name": "alcremie-salted-cream-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10351,
+        "name": "alcremie-ruby-swirl-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10455,
+        "name": "alcremie-ruby-swirl-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10464,
+        "name": "alcremie-ruby-swirl-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10473,
+        "name": "alcremie-ruby-swirl-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10482,
+        "name": "alcremie-ruby-swirl-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10491,
+        "name": "alcremie-ruby-swirl-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10500,
+        "name": "alcremie-ruby-swirl-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10352,
+        "name": "alcremie-caramel-swirl-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10456,
+        "name": "alcremie-caramel-swirl-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10465,
+        "name": "alcremie-caramel-swirl-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10474,
+        "name": "alcremie-caramel-swirl-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10483,
+        "name": "alcremie-caramel-swirl-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10492,
+        "name": "alcremie-caramel-swirl-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10501,
+        "name": "alcremie-caramel-swirl-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10353,
+        "name": "alcremie-rainbow-swirl-strawberry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10457,
+        "name": "alcremie-rainbow-swirl-berry-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10466,
+        "name": "alcremie-rainbow-swirl-love-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10475,
+        "name": "alcremie-rainbow-swirl-star-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10484,
+        "name": "alcremie-rainbow-swirl-clover-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10493,
+        "name": "alcremie-rainbow-swirl-flower-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10502,
+        "name": "alcremie-rainbow-swirl-ribbon-sweet",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10360,
+        "name": "urshifu-rapid-strike",
+        "type1": "fighting",
+        "type2": "water",
+        "original_id": 892,
+        "section": "form"
+    },
+    {
+        "id": 10361,
+        "name": "zarude-dada",
+        "type1": "dark",
+        "type2": "grass",
+        "original_id": 893,
+        "section": "form"
+    },
+    {
+        "id": 10364,
+        "name": "venusaur-gmax",
+        "type1": "grass",
+        "type2": "poison",
+        "original_id": 3,
+        "section": "form"
+    },
+    {
+        "id": 10365,
+        "name": "charizard-gmax",
+        "type1": "fire",
+        "type2": "flying",
+        "original_id": 6,
+        "section": "form"
+    },
+    {
+        "id": 10366,
+        "name": "blastoise-gmax",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 9,
+        "section": "form"
+    },
+    {
+        "id": 10367,
+        "name": "butterfree-gmax",
+        "type1": "bug",
+        "type2": "flying",
+        "original_id": 12,
+        "section": "form"
+    },
+    {
+        "id": 10368,
+        "name": "pikachu-gmax",
+        "type1": "electric",
+        "type2": "none",
+        "original_id": 25,
+        "section": "form"
+    },
+    {
+        "id": 10369,
+        "name": "meowth-gmax",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 52,
+        "section": "form"
+    },
+    {
+        "id": 10370,
+        "name": "machamp-gmax",
+        "type1": "fighting",
+        "type2": "none",
+        "original_id": 68,
+        "section": "form"
+    },
+    {
+        "id": 10371,
+        "name": "gengar-gmax",
+        "type1": "ghost",
+        "type2": "poison",
+        "original_id": 94,
+        "section": "form"
+    },
+    {
+        "id": 10372,
+        "name": "kingler-gmax",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 99,
+        "section": "form"
+    },
+    {
+        "id": 10373,
+        "name": "lapras-gmax",
+        "type1": "water",
+        "type2": "ice",
+        "original_id": 131,
+        "section": "form"
+    },
+    {
+        "id": 10374,
+        "name": "eevee-gmax",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 133,
+        "section": "form"
+    },
+    {
+        "id": 10375,
+        "name": "snorlax-gmax",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 143,
+        "section": "form"
+    },
+    {
+        "id": 10376,
+        "name": "garbodor-gmax",
+        "type1": "poison",
+        "type2": "none",
+        "original_id": 569,
+        "section": "form"
+    },
+    {
+        "id": 10377,
+        "name": "melmetal-gmax",
+        "type1": "steel",
+        "type2": "none",
+        "original_id": 809,
+        "section": "form"
+    },
+    {
+        "id": 10378,
+        "name": "rillaboom-gmax",
+        "type1": "grass",
+        "type2": "none",
+        "original_id": 812,
+        "section": "form"
+    },
+    {
+        "id": 10379,
+        "name": "cinderace-gmax",
+        "type1": "fire",
+        "type2": "none",
+        "original_id": 815,
+        "section": "form"
+    },
+    {
+        "id": 10380,
+        "name": "inteleon-gmax",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 818,
+        "section": "form"
+    },
+    {
+        "id": 10381,
+        "name": "corviknight-gmax",
+        "type1": "flying",
+        "type2": "steel",
+        "original_id": 823,
+        "section": "form"
+    },
+    {
+        "id": 10382,
+        "name": "orbeetle-gmax",
+        "type1": "bug",
+        "type2": "psychic",
+        "original_id": 826,
+        "section": "form"
+    },
+    {
+        "id": 10383,
+        "name": "drednaw-gmax",
+        "type1": "water",
+        "type2": "rock",
+        "original_id": 834,
+        "section": "form"
+    },
+    {
+        "id": 10384,
+        "name": "coalossal-gmax",
+        "type1": "rock",
+        "type2": "fire",
+        "original_id": 839,
+        "section": "form"
+    },
+    {
+        "id": 10385,
+        "name": "flapple-gmax",
+        "type1": "grass",
+        "type2": "dragon",
+        "original_id": 841,
+        "section": "form"
+    },
+    {
+        "id": 10386,
+        "name": "appletun-gmax",
+        "type1": "grass",
+        "type2": "dragon",
+        "original_id": 842,
+        "section": "form"
+    },
+    {
+        "id": 10387,
+        "name": "sandaconda-gmax",
+        "type1": "ground",
+        "type2": "none",
+        "original_id": 844,
+        "section": "form"
+    },
+    {
+        "id": 10388,
+        "name": "toxtricity-amped-gmax",
+        "type1": "electric",
+        "type2": "poison",
+        "original_id": 849,
+        "section": "form"
+    },
+    {
+        "id": 10397,
+        "name": "toxtricity-low-key-gmax",
+        "type1": "electric",
+        "type2": "poison",
+        "original_id": 849,
+        "section": "form"
+    },
+    {
+        "id": 10389,
+        "name": "centiskorch-gmax",
+        "type1": "fire",
+        "type2": "bug",
+        "original_id": 851,
+        "section": "form"
+    },
+    {
+        "id": 10390,
+        "name": "hatterene-gmax",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 857,
+        "section": "form"
+    },
+    {
+        "id": 10391,
+        "name": "grimmsnarl-gmax",
+        "type1": "dark",
+        "type2": "fairy",
+        "original_id": 861,
+        "section": "form"
+    },
+    {
+        "id": 10392,
+        "name": "alcremie-gmax",
+        "type1": "fairy",
+        "type2": "none",
+        "original_id": 869,
+        "section": "form"
+    },
+    {
+        "id": 10393,
+        "name": "copperajah-gmax",
+        "type1": "steel",
+        "type2": "none",
+        "original_id": 879,
+        "section": "form"
+    },
+    {
+        "id": 10394,
+        "name": "duraludon-gmax",
+        "type1": "steel",
+        "type2": "dragon",
+        "original_id": 884,
+        "section": "form"
+    },
+    {
+        "id": 10395,
+        "name": "urshifu-single-strike-gmax",
+        "type1": "fighting",
+        "type2": "dark",
+        "original_id": 892,
+        "section": "form"
+    },
+    {
+        "id": 10396,
+        "name": "urshifu-rapid-strike-gmax",
+        "type1": "fighting",
+        "type2": "water",
+        "original_id": 892,
+        "section": "form"
+    },
+    {
+        "id": 10416,
+        "name": "basculin-white-striped",
+        "type1": "water",
+        "type2": "none",
+        "original_id": 550,
+        "section": "form"
+    },
+    {
+        "id": 10418,
+        "name": "enamorus-therian",
+        "type1": "fairy",
+        "type2": "flying",
+        "original_id": 905,
+        "section": "form"
+    },
+    {
+        "id": 10420,
+        "name": "tauros-paldea-blaze-breed",
+        "type1": "fighting",
+        "type2": "fire",
+        "original_id": 128,
+        "section": "form"
+    },
+    {
+        "id": 10421,
+        "name": "tauros-paldea-aqua-breed",
+        "type1": "fighting",
+        "type2": "water",
+        "original_id": 128,
+        "section": "form"
+    },
+    {
+        "id": 10426,
+        "name": "maushold-family-of-three",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 925,
+        "section": "form"
+    },
+    {
+        "id": 10429,
+        "name": "squawkabilly-blue-plumage",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 931,
+        "section": "form"
+    },
+    {
+        "id": 10430,
+        "name": "squawkabilly-yellow-plumage",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 931,
+        "section": "form"
+    },
+    {
+        "id": 10431,
+        "name": "squawkabilly-white-plumage",
+        "type1": "normal",
+        "type2": "flying",
+        "original_id": 931,
+        "section": "form"
+    },
+    {
+        "id": 10427,
+        "name": "tatsugiri-droppy",
+        "type1": "dragon",
+        "type2": "water",
+        "original_id": 978,
+        "section": "form"
+    },
+    {
+        "id": 10428,
+        "name": "tatsugiri-stretchy",
+        "type1": "dragon",
+        "type2": "water",
+        "original_id": 978,
+        "section": "form"
+    },
+    {
+        "id": 10424,
+        "name": "dudunsparce-three-segment",
+        "type1": "normal",
+        "type2": "none",
+        "original_id": 982,
+        "section": "form"
+    },
+    {
+        "id": 10432,
+        "name": "gimmighoul-roaming",
+        "type1": "ghost",
+        "type2": "none",
+        "original_id": 999,
+        "section": "form"
+    },
+    {
+        "id": 10447,
+        "name": "poltchageist-artisan",
+        "type1": "grass",
+        "type2": "ghost",
+        "original_id": 1012,
+        "section": "form"
+    },
+    {
+        "id": 10448,
+        "name": "sinistcha-masterpiece",
+        "type1": "grass",
+        "type2": "ghost",
+        "original_id": 1013,
+        "section": "form"
+    },
+    {
+        "id": 10441,
+        "name": "ursaluna-bloodmoon",
+        "type1": "ground",
+        "type2": "normal",
+        "original_id": 901,
+        "section": "form"
+    }
+]

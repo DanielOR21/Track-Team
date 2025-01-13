@@ -1,0 +1,64 @@
+<div class="page-container">
+
+    <div class="left-div animate-fade-in">
+
+        @for (button of buttons; track $index) {
+        <div class="button-div">
+            <div [id]="'button-'+button.reference" class="button-item" (click)="updateSelectedButton(button.reference)">
+                @if(currentLanguage === 'es') {
+                {{button.es}}
+                }@else {
+                {{button.name}}
+                }
+            </div>
+        </div>
+        }
+
+    </div>
+
+    <div class="textbox-container">
+
+        <div class="button-copup-div">
+
+            <div (click)="copyToClipboard()" class="copup-button" [class.disabled]="!selectedButton"
+                [attr.aria-disabled]="!selectedButton">
+                @if(currentLanguage === 'es') {
+                Copiar
+                }@else {
+                Copy
+                }
+            </div>
+
+            <div (click)="updateLocalStorage()" class="copup-button" [class.disabled]="!selectedButton"
+                [attr.aria-disabled]="!selectedButton">
+                @if(currentLanguage === 'es') {
+                Actualizar
+                }@else {
+                Update
+                }
+            </div>
+
+            <div class="caution-msg">
+                @if(currentLanguage === 'es') {
+                *NO es recomendable actualizar los objetos a mano.
+                <br><br>
+                *Esta parte esta pensada para hacer BackUps Copiando y Pegando.
+                }@else {
+                *It is NOT recommended to manually update the objects.
+                <br><br>
+                *This section is intended for making BackUps by Copying and Pasting.
+                }
+            </div>
+
+        </div>
+        <div class="textbox-div animate-fade-in">
+
+            @if (selectedButton) {
+            <textarea id="jsonTextarea" [value]="storageData" (input)="validateJson()" class="json-textarea"></textarea>
+            }
+
+        </div>
+
+    </div>
+
+</div>

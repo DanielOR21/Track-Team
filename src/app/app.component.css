@@ -1,0 +1,69 @@
+.route {
+  width: 100%;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-dropdown {
+  max-width: 50px !important; /* El menú no será más ancho que 200px */
+}
+
+.main-nav {
+  background: rgb(5, 57, 66);
+  display: flex;
+}
+
+nav {
+  height: 8vh;
+  min-width: 100%;
+}
+
+.nav-languaje-div{
+  width: 10%;
+}
+
+.nav-track-div{
+  width: 30%;
+  color: rgb(255, 255, 255);
+}
+
+.nav-item{
+  text-align: center;
+  width: 25%;
+  min-width: 100px;
+  font-size: 1.2em;
+}
+
+.nav-title-div{
+ width: 20%;
+ font-size: 1.8em;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: bold;
+ color: rgb(219, 139, 35);
+ border: 2px solid white;
+ border-right: 0;
+ border-left: 0;
+ background-color: rgba(127, 255, 212, 0.089);
+}
+
+.nav-team-div{
+  width: 30%;
+}
+
+.nav-impexp-div{
+  width: 10%;
+}
+
+.nav-main-item{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer{
+  height: 12vh;
+  width: 100%;
+}

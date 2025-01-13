@@ -1,0 +1,385 @@
+<div class="page-container">
+
+  <div class="div-filters-home animate-fade-in" [class]="{'shiny-div-filter': shinyPage, 'normal-div-filter': !shinyPage}">
+    
+    @if (pokemonInfo) {
+    <div class="pokemon-info animate-slide-in" [class]="{'pokemon-info-shiny': pokemonInfo.shiny === true}">
+      <button class="close-button-info" (click)="closePokemonInfo()"><i class="bi bi-x"></i></button>
+      <img [src]="pokemonInfo.shiny 
+      ? '/home/shiny/' + pokemonInfo.section + '/' + pokemonInfo.id + '.png' 
+      : '/home/' + pokemonInfo.section + '/' + pokemonInfo.id + '.png'" class="pokemon-img"
+        [class]="{'pokemon-info-img-shiny': pokemonInfo.shiny === true}" [alt]="pokemonInfo.name">
+
+      <div class="info-data">
+
+        <div class="dex-number"
+          [class]="{'pokemon-info-text-shiny': pokemonInfo.shiny === true, 'pokemon-info-text-normal': pokemonInfo.shiny === false}">
+          #{{pokemonInfo.original_id | formatNumber}}
+        </div>
+        <div class="data-section"
+          [class]="{'pokemon-info-text-shiny': pokemonInfo.shiny === true, 'pokemon-info-text-normal': pokemonInfo.shiny === false}">
+          {{pokemonInfo.section | formatName }}
+        </div>
+
+        <div class="div-types">
+          <img [src]="'/types/'+pokemonInfo.type1+'.png'" class="type" [title]="pokemonInfo.type1 | formatName"
+            [alt]="pokemonInfo.type1">
+          @if (pokemonInfo.type2 !== "none") {
+          <img [src]="'/types/'+pokemonInfo.type2+'.png'" class="type" [title]="pokemonInfo.type2 | formatName"
+            [alt]="pokemonInfo.type2">
+          }
+        </div>
+
+      </div>
+
+      <div class="pokemon-info-name"
+        [class]="{'pokemon-info-text-shiny': pokemonInfo.shiny === true, 'pokemon-info-text-normal': pokemonInfo.shiny === false}">
+        {{pokemonInfo.name | formatName }}</div>
+
+      <div class="div-states-drop">
+
+        <div
+          [class]="{'pokemon-info-text-shiny': pokemonInfo.shiny === true, 'pokemon-info-text-normal': pokemonInfo.shiny === false}">
+          <img src="/symbols/info.png" class="info-symbol" alt="info"> State:
+        </div>
+
+        <div class="info-dropdown-button" [class]="{'pokemon-info-button-shiny': pokemonInfo.shiny === true}"
+          (click)="toggleDropdown(5)">
+          <img [src]="'/symbols/'+pokemonInfo.state+'.png' " alt="{{ pokemonInfo.state }}" class="states-dropdown-icon">
+          <span>{{ pokemonInfo.state }}</span>
+        </div>
+
+        <div class="states-dropdown-content"
+          [class]="{'dropdown-content-shiny': pokemonInfo.shiny === true, 'dropdown-content-normal': pokemonInfo.shiny === false}"
+          [class.open]="isDropdownOpenInfoState">
+          @for (state of stateList; track $index) {
+          <div class="states-dropdown-item" (click)="updatePokemonInfoState(pokemonInfo, state.value)">
+            <img [src]="state.img " alt="{{ state.name }}" class="states-dropdown-icon">
+            <span>{{ state.name }}</span>
+          </div>
+          }
+        </div>
+
+      </div>
+
+      <div class="div-games-drop">
+
+        <div
+          [class]="{'pokemon-info-text-shiny': pokemonInfo.shiny === true, 'pokemon-info-text-normal': pokemonInfo.shiny === false}">
+          Game: </div>
+
+        <div class="info-dropdown-button" [class]="{'pokemon-info-button-shiny': pokemonInfo.shiny === true}"
+          (click)="toggleDropdown(6)" [style]="'background:'+getBackgroundByGameName(pokemonInfo.game)">
+          <span>{{ pokemonInfo.game }}</span>
+        </div>
+
+        <div class="games-dropdown-content"
+          [class]="{'dropdown-content-shiny': pokemonInfo.shiny === true, 'dropdown-content-normal': pokemonInfo.shiny === false}"
+          [class.open]="isDropdownOpenInfoGame">
+          @for (game of gameList; track $index) {
+
+          @if ($index > 0 && game.group !== gameList[$index - 1].group) {
+          <div class="group-separator"></div>
+          }
+
+          <div class="games-dropdown-item" [style]="'background:'+game.background"
+            (click)="updatePokemonInfoGame(pokemonInfo, game.name)">
+            {{ game.name }}
+          </div>
+          }
+        </div>
+
+      </div>
+
+      <div class="pokemon-info-note">
+        <textarea id="textarea-info"
+          [class]="{'textarea-info-shiny': pokemonInfo.shiny === true, 'textarea-info-normal': pokemonInfo.shiny === false}"
+          [value]="pokemonInfo.note" rows="2" maxlength="40" placeholder="Enter note..."></textarea>
+        <div class="info-dropdown-button" [class]="{'pokemon-info-button-shiny': pokemonInfo.shiny === true}"
+          [class.clicked]="isButtonClicked" (click)="updatePokemonInfoNote(pokemonInfo)">Update Note</div>
+      </div>
+    </div>
+    }
+
+    @if (shinyPage) {
+    <div class="change-shiny normal-button" (click)="changeShinyPage()"> Normal Dex</div>
+    }@else {
+    <div class="change-shiny shiny-button" (click)="changeShinyPage()"> Shiny Dex</div>
+    }
+    
+
+    <div class="search-pokemon-div">
+      <span class="animate-drop">Nº Results: </span><span style="font-weight: bold;">{{showList.length}}</span>
+      <input type="text" class="search-pokemon" placeholder="Search..." (input)="onSearch($event)">
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" [class]="{'shiny-header': shinyPage, 'normal-header': !shinyPage}"
+        (click)="toggleDropdown(1)">
+        Pokédex <span class="drop-arrow" [class.open]="isDropdownOpenDex">▶</span>
+        @if (pokedex) {
+        <span> ({{pokedex | formatName}})</span>
+        }
+      </div>
+      <div class="pokedex-menu animate-drop" [class.open]="isDropdownOpenDex">
+        @for (item of progressPokedex; track $index) {
+        <div [id]="'pokedex-option-' + item.reference" class="pokedex-item"
+          [class]="{'shiny-item': shinyPage, 'normal-item': !shinyPage}" (click)="changeShowList(item.reference)">
+          <span class="pokedex-title">{{ item.name }} ({{item.progress}}%)</span>
+          <div class="progress-bar-container">
+            <div class="progress-bar" [class]="{'shiny-bar': shinyPage, 'normal-bar': !shinyPage}"
+              [style.width.%]="item.progress"></div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" [class]="{'shiny-header': shinyPage, 'normal-header': !shinyPage}"
+        (click)="toggleDropdown(2)">
+        States <span class="drop-arrow" [class.open]="isDropdownOpenState">▶</span>
+        @if (filterState) {
+        <span> ({{filterState}})</span>
+        }
+      </div>
+      <div class="states-menu animate-drop" [class.open]="isDropdownOpenState">
+        @for (item of stateList; track $index) {
+        <div [id]="'state-option-' + item.name" class="state-item"
+          [class]="{'shiny-item': shinyPage, 'normal-item': !shinyPage}" (click)="updateFilters(item.value, 'state')">
+          <img [src]="item.img " alt="{{ item.name }}" class="states-filter-icon">
+          <span class="state-title">{{ item.name }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" [class]="{'shiny-header': shinyPage, 'normal-header': !shinyPage}"
+        (click)="toggleDropdown(3)">
+        Games <span class="drop-arrow" [class.open]="isDropdownOpenGames">▶</span>
+        @if (filterGame) {
+        <span> ({{filterGame}})</span>
+        }
+      </div>
+      <div class="games-menu animate-drop" [class.open]="isDropdownOpenGames">
+        @for (item of gameList; track $index) {
+        <div [id]="'game-option-' + item.name" class="game-item"
+          [class]="{'shiny-item': shinyPage, 'normal-item': !shinyPage}" (click)="updateFilters(item.name, 'game')">
+          <span class="game-title">{{ item.name }}</span>
+        </div>
+        }
+      </div>
+    </div>
+
+    <div class="filter-div">
+      <div class="filter-header" [class]="{'shiny-header': shinyPage, 'normal-header': !shinyPage}"
+        (click)="toggleDropdown(4)">
+        Note <span class="drop-arrow" [class.open]="isDropdownOpenNote">▶</span>
+        @if (filterNote === true) {
+        <span> (Yes)</span>
+        }@else if (filterNote === false) {
+        <span> (No)</span>
+        }
+      </div>
+      <div class="note-menu animate-drop" [class.open]="isDropdownOpenNote">
+        <div id="note-option-true" class="note-item" [class]="{'shiny-item': shinyPage, 'normal-item': !shinyPage}"
+          (click)="updateFilters(true, 'note')">
+          <span class="note-title">Yes</span>
+        </div>
+        <div id="note-option-false" class="note-item" [class]="{'shiny-item': shinyPage, 'normal-item': !shinyPage}"
+          (click)="updateFilters(false, 'note')">
+          <span class="note-title">No</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="content-wrapper">
+
+    <div class="div-titles">
+
+      @if (pokedex === "national") {
+
+      @for (title of titleList; track $index) {
+      <div [id]="'gen-title-'+title.number" class="gen-title"
+        [class]="{'shiny-button': shinyPage, 'normal-button': !shinyPage}"
+        (click)="titleSelected !== title.number && updateShowList(title.value)">
+
+        @if(titleSelected === title.number){
+        <div class="title-selected-container">
+          <span class="title-left">{{title.name | formatName}}</span>
+          <span class="title-right">({{countCaughtSection}}/{{countAllSection}}) {{percentageBarSection}}%</span>
+        </div>
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar"
+            [class]="{'selected-shiny-bar': shinyPage, 'selected-normal-bar': !shinyPage}"
+            [style.width.%]="percentageBarSection"></div>
+        </div>
+        }@else{
+        {{title.name | formatName}}
+        }
+
+      </div>
+      }
+
+      }@else if (pokedex === "form") {
+
+      <div id="gen-title-form" class="gen-title title-selected"
+        [class]="{'shiny-button': shinyPage, 'normal-button': !shinyPage}">
+        <div class="title-selected-container">
+          <span class="title-left">Form Dex</span>
+          <span class="title-right">({{countCaughtSection}}/{{countAllSection}}) {{percentageBarSection}}%</span>
+        </div>
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar"
+            [class]="{'selected-shiny-bar': shinyPage, 'selected-normal-bar': !shinyPage}"
+            [style.width.%]="percentageBarSection"></div>
+        </div>
+      </div>
+      <div class="change-order" [class]="{'shiny-order': shinyPage, 'normal-order': !shinyPage}" (click)="changeOrder()">
+        Order:
+        @if (order === true) {
+        Pokédex
+        }@else {
+        Section
+        }
+      </div>
+
+      }@else if (pokedex === "regional") {
+
+      <div id="gen-title-regional" class="gen-title title-selected"
+        [class]="{'shiny-button': shinyPage, 'normal-button': !shinyPage}">
+        <div class="title-selected-container">
+          <span class="title-left">Regional Dex</span>
+          <span class="title-right">({{countCaughtSection}}/{{countAllSection}}) {{percentageBarSection}}%</span>
+        </div>
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar"
+            [class]="{'selected-shiny-bar': shinyPage, 'selected-normal-bar': !shinyPage}"
+            [style.width.%]="percentageBarSection"></div>
+        </div>
+      </div>
+      <div class="change-order" [class]="{'shiny-order': shinyPage, 'normal-order': !shinyPage}" (click)="changeOrder()">
+        Order:
+        @if (order === true) {
+        Pokédex
+        }@else {
+        Section
+        }
+      </div>
+
+      }@else if (pokedex === "female") {
+
+      <div id="gen-title-female" class="gen-title title-selected"
+        [class]="{'shiny-button': shinyPage, 'normal-button': !shinyPage}">
+        <div class="title-selected-container">
+          <span class="title-left">Female Dex</span>
+          <span class="title-right">({{countCaughtSection}}/{{countAllSection}}) {{percentageBarSection}}%</span>
+        </div>
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar"
+            [class]="{'selected-shiny-bar': shinyPage, 'selected-normal-bar': !shinyPage}"
+            [style.width.%]="percentageBarSection"></div>
+        </div>
+      </div>
+      <div class="change-order" [class]="{'shiny-order': shinyPage, 'normal-order': !shinyPage}" (click)="changeOrder()">
+        Order:
+        @if (order === true) {
+        Pokédex
+        }@else {
+        Section
+        }
+      </div>
+
+      }@else {
+
+      <div id="gen-title-none" class="gen-title title-selected"
+        [class]="{'shiny-button': shinyPage, 'normal-button': !shinyPage}">
+        <div class="title-selected-container">
+          <span class="title-left">Full Pokédex</span>
+          <span class="title-right">({{countCaught}}/{{countAll}}) {{percentageBarSection}}%</span>
+        </div>
+        <div class="selected-progress-bar-container">
+          <div class="selected-progress-bar"
+            [class]="{'selected-shiny-bar': shinyPage, 'selected-normal-bar': !shinyPage}"
+            [style.width.%]="percentageBarSection"></div>
+        </div>
+      </div>
+      <div class="change-order" [class]="{'shiny-order': shinyPage, 'normal-order': !shinyPage}" (click)="changeOrder()">
+        Order:
+        @if (order === true) {
+        Pokédex
+        }@else {
+        Section
+        }
+      </div>
+
+      }
+
+    </div>
+
+    <div class="pokemon-container animate-fade-in"
+      [class]="{'shiny-container': shinyPage, 'normal-container': !shinyPage}">
+      @for (pokemon of showList; track $index) {
+      @defer(on viewport) {
+
+      <div class="pokemon-card" (click)="setPokemonInfo(pokemon)"
+        (dblclick)="setPokemonStateDC(pokemon.id, pokemon.section , getPokemonStateLS(pokemon.id, pokemon.section), this.shinyPage)"
+        [id]="'pokemon-card-'+ pokemon.section + '-' + pokemon.id" [class]="{
+        'no-registered': getPokemonStateLS(pokemon.id, pokemon.section) === 'Uncaught',
+        'to-do-registered': getPokemonStateLS(pokemon.id, pokemon.section) === 'Stored' || getPokemonStateLS(pokemon.id, pokemon.section) === 'Evolve' || getPokemonStateLS(pokemon.id, pokemon.section) === 'Wanted' || getPokemonStateLS(pokemon.id, pokemon.section) === 'Change' ,
+        'registered': getPokemonStateLS(pokemon.id, pokemon.section) === 'Caught'
+      }" [style]="{ 
+            'background': (pokemon.type1 === 'none' && pokemon.type2 === 'none') ? 'white' :
+            pokemon.type2 !== 'none' ? 'linear-gradient(to bottom right, ' + getTypeColor(pokemon.type1) + ' 30% , ' + getTypeColor(pokemon.type2) + ' 70%)' :
+            getTypeColor(pokemon.type1)
+        }" (mouseenter)="onCardHover(pokemon.id, pokemon.section)" (mouseleave)="onCardMouseLeave()">
+
+        @if (getPokemonStateLS(pokemon.id, pokemon.section) === 'Caught') {
+        <img class="pokeball" [src]="'/symbols/Caught.png'" alt='catched' />
+        }@else if (getPokemonStateLS(pokemon.id, pokemon.section) === 'Change') {
+        <img class="pokeball" [src]="'/symbols/Change.png'" alt='change' />
+        }@else if (getPokemonStateLS(pokemon.id, pokemon.section) === 'Stored') {
+        <img class="pokeball" [src]="'/symbols/Stored.png'" alt='stored' />
+        }@else if (getPokemonStateLS(pokemon.id, pokemon.section) === 'Evolve') {
+        <img class="pokeball" [src]="'/symbols/Evolve.png'" alt='evolve' />
+        }@else if (getPokemonStateLS(pokemon.id, pokemon.section) === 'Wanted') {
+        <img class="pokeball" [src]="'/symbols/Wanted.png'" alt='wanted' />
+        }@else if (getPokemonStateLS(pokemon.id, pokemon.section) === 'Uncaught') {
+        <img class="pokeball" [src]="'/symbols/Uncaught.png'" alt='uncaught' />
+        }
+
+        @if (pokemon.name.includes('female')) {
+        <img class="female" [src]="'/symbols/female.png'" alt='female' />
+        }
+
+        @if (!this.shinyPage){
+        <img [src]="'/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
+          alt="{{ pokemon.name }}" />
+        }@else {
+        <img [src]="'/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
+          (error)="onImageError($event, pokemon.id)" alt="{{ pokemon.name }}" />
+        }
+
+        @if(hoveredCardId === pokemon.id && hoveredCardSection === pokemon.section){
+        <div class="hover-name" [class]="{ 'hover-name-top': hoverPosition === 'top', 
+            'hover-name-left': hoverAlignment === 'left', 'hover-name-right': hoverAlignment === 'right' }">
+          {{ pokemon.name | formatName }}
+        </div>
+        }
+
+      </div>
+
+      }@placeholder {
+      <div class="pokemon-card" style="background-color: rgba(21, 88, 32, 0.5);">
+        #{{pokemon.id}}
+      </div>
+      }
+      }
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,442 @@
+[
+    {
+        "id": 10193,
+        "name": "ratatta-alola",
+        "type1": "dark",
+        "type2": "normal",
+        "original_id": 19,
+        "section": "regional"
+    },
+    {
+        "id": 10194,
+        "name": "raticate-alola",
+        "type1": "dark",
+        "type2": "normal",
+        "original_id": 20,
+        "section": "regional"
+    },
+    {
+        "id": 10202,
+        "name": "raichu-alola",
+        "type1": "electric",
+        "type2": "psychic",
+        "original_id": 26,
+        "section": "regional"
+    },
+    {
+        "id": 10203,
+        "name": "sandshrew-alola",
+        "type1": "ice",
+        "type2": "steel",
+        "original_id": 27,
+        "section": "regional"
+    },
+    {
+        "id": 10204,
+        "name": "sandslash-alola",
+        "type1": "ice",
+        "type2": "steel",
+        "original_id": 28,
+        "section": "regional"
+    },
+    {
+        "id": 10205,
+        "name": "vulpix-alola",
+        "type1": "ice",
+        "type2": "none",
+        "original_id": 37,
+        "section": "regional"
+    },
+    {
+        "id": 10206,
+        "name": "ninetales-alola",
+        "type1": "ice",
+        "type2": "fairy",
+        "original_id": 38,
+        "section": "regional"
+    },
+    {
+        "id": 10207,
+        "name": "diglett-alola",
+        "type1": "ground",
+        "type2": "steel",
+        "original_id": 50,
+        "section": "regional"
+    },
+    {
+        "id": 10208,
+        "name": "dugtrio-alola",
+        "type1": "ground",
+        "type2": "steel",
+        "original_id": 51,
+        "section": "regional"
+    },
+    {
+        "id": 10209,
+        "name": "meowth-alola",
+        "type1": "dark",
+        "type2": "none",
+        "original_id": 52,
+        "section": "regional"
+    },
+    {
+        "id": 10210,
+        "name": "persian-alola",
+        "type1": "dark",
+        "type2": "none",
+        "original_id": 53,
+        "section": "regional"
+    },
+    {
+        "id": 10211,
+        "name": "geodude-alola",
+        "type1": "rock",
+        "type2": "electric",
+        "original_id": 74,
+        "section": "regional"
+    },
+    {
+        "id": 10212,
+        "name": "graveler-alola",
+        "type1": "rock",
+        "type2": "electric",
+        "original_id": 75,
+        "section": "regional"
+    },
+    {
+        "id": 10213,
+        "name": "golem-alola",
+        "type1": "rock",
+        "type2": "electric",
+        "original_id": 76,
+        "section": "regional"
+    },
+    {
+        "id": 10214,
+        "name": "grimer-alola",
+        "type1": "poison",
+        "type2": "dark",
+        "original_id": 88,
+        "section": "regional"
+    },
+    {
+        "id": 10215,
+        "name": "muk-alola",
+        "type1": "poison",
+        "type2": "dark",
+        "original_id": 89,
+        "section": "regional"
+    },
+    {
+        "id": 10216,
+        "name": "exeggutor-alola",
+        "type1": "grass",
+        "type2": "dragon",
+        "original_id": 103,
+        "section": "regional"
+    },
+    {
+        "id": 10217,
+        "name": "marowak-alola",
+        "type1": "fire",
+        "type2": "ghost",
+        "original_id": 105,
+        "section": "regional"
+    },
+    {
+        "id": 10320,
+        "name": "meowth-galar",
+        "type1": "steel",
+        "type2": "none",
+        "original_id": 52,
+        "section": "regional"
+    },
+    {
+        "id": 10321,
+        "name": "ponyta-galar",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 77,
+        "section": "regional"
+    },
+    {
+        "id": 10322,
+        "name": "rapidash-galar",
+        "type1": "psychic",
+        "type2": "fairy",
+        "original_id": 78,
+        "section": "regional"
+    },
+    {
+        "id": 10325,
+        "name": "farfetchd-galar",
+        "type1": "fighting",
+        "type2": "none",
+        "original_id": 83,
+        "section": "regional"
+    },
+    {
+        "id": 10326,
+        "name": "weezing-galar",
+        "type1": "poison",
+        "type2": "fairy",
+        "original_id": 110,
+        "section": "regional"
+    },
+    {
+        "id": 10327,
+        "name": "mr-mime-galar",
+        "type1": "ice",
+        "type2": "psychic",
+        "original_id": 122,
+        "section": "regional"
+    },
+    {
+        "id": 10332,
+        "name": "corsola-galar",
+        "type1": "ghost",
+        "type2": "none",
+        "original_id": 222,
+        "section": "regional"
+    },
+    {
+        "id": 10333,
+        "name": "zigzagoon-galar",
+        "type1": "dark",
+        "type2": "normal",
+        "original_id": 263,
+        "section": "regional"
+    },
+    {
+        "id": 10334,
+        "name": "linoone-galar",
+        "type1": "dark",
+        "type2": "normal",
+        "original_id": 264,
+        "section": "regional"
+    },
+    {
+        "id": 10335,
+        "name": "darumaka-galar",
+        "type1": "ice",
+        "type2": "none",
+        "original_id": 554,
+        "section": "regional"
+    },
+    {
+        "id": 10336,
+        "name": "darmanitan-galar",
+        "type1": "ice",
+        "type2": "none",
+        "original_id": 555,
+        "section": "regional"
+    },
+    {
+        "id": 10338,
+        "name": "yamask-galar",
+        "type1": "ground",
+        "type2": "ghost",
+        "original_id": 562,
+        "section": "regional"
+    },
+    {
+        "id": 10339,
+        "name": "stunfisk-galar",
+        "type1": "ground",
+        "type2": "steel",
+        "original_id": 618,
+        "section": "regional"
+    },
+    {
+        "id": 10323,
+        "name": "slowpoke-galar",
+        "type1": "psychic",
+        "type2": "none",
+        "original_id": 79,
+        "section": "regional"
+    },
+    {
+        "id": 10324,
+        "name": "slowbro-galar",
+        "type1": "poison",
+        "type2": "psychic",
+        "original_id": 80,
+        "section": "regional"
+    },
+    {
+        "id": 10328,
+        "name": "articuno-galar",
+        "type1": "psychic",
+        "type2": "flying",
+        "original_id": 144,
+        "section": "regional"
+    },
+    {
+        "id": 10329,
+        "name": "zapdos-galar",
+        "type1": "fighting",
+        "type2": "flying",
+        "original_id": 145,
+        "section": "regional"
+    },
+    {
+        "id": 10330,
+        "name": "moltres-galar",
+        "type1": "dark",
+        "type2": "flying",
+        "original_id": 146,
+        "section": "regional"
+    },
+    {
+        "id": 10331,
+        "name": "slowking-galar",
+        "type1": "poison",
+        "type2": "psychic",
+        "original_id": 199,
+        "section": "regional"
+    },
+    {
+        "id": 10398,
+        "name": "growlithe-hisui",
+        "type1": "fire",
+        "type2": "rock",
+        "original_id": 58,
+        "section": "regional"
+    },
+    {
+        "id": 10399,
+        "name": "arcanine-hisui",
+        "type1": "fire",
+        "type2": "rock",
+        "original_id": 59,
+        "section": "regional"
+    },
+    {
+        "id": 10400,
+        "name": "voltorb-hisui",
+        "type1": "electric",
+        "type2": "grass",
+        "original_id": 100,
+        "section": "regional"
+    },
+    {
+        "id": 10401,
+        "name": "electrode-hisui",
+        "type1": "electric",
+        "type2": "grass",
+        "original_id": 101,
+        "section": "regional"
+    },
+    {
+        "id": 10402,
+        "name": "typhlosion-hisui",
+        "type1": "fire",
+        "type2": "ghost",
+        "original_id": 157,
+        "section": "regional"
+    },
+    {
+        "id": 10403,
+        "name": "qwilfish-hisui",
+        "type1": "dark",
+        "type2": "poison",
+        "original_id": 211,
+        "section": "regional"
+    },
+    {
+        "id": 10404,
+        "name": "sneasel-hisui",
+        "type1": "fighting",
+        "type2": "poison",
+        "original_id": 215,
+        "section": "regional"
+    },
+    {
+        "id": 10405,
+        "name": "samurott-hisui",
+        "type1": "water",
+        "type2": "dark",
+        "original_id": 503,
+        "section": "regional"
+    },
+    {
+        "id": 10406,
+        "name": "lilligant-hisui",
+        "type1": "grass",
+        "type2": "fighting",
+        "original_id": 549,
+        "section": "regional"
+    },
+    {
+        "id": 10407,
+        "name": "zorua-hisui",
+        "type1": "normal",
+        "type2": "ghost",
+        "original_id": 570,
+        "section": "regional"
+    },
+    {
+        "id": 10408,
+        "name": "zoroark-hisui",
+        "type1": "normal",
+        "type2": "ghost",
+        "original_id": 571,
+        "section": "regional"
+    },
+    {
+        "id": 10409,
+        "name": "braviary-hisui",
+        "type1": "psychic",
+        "type2": "flying",
+        "original_id": 628,
+        "section": "regional"
+    },
+    {
+        "id": 10410,
+        "name": "sliggoo-hisui",
+        "type1": "steel",
+        "type2": "dragon",
+        "original_id": 705,
+        "section": "regional"
+    },
+    {
+        "id": 10411,
+        "name": "goodra-hisui",
+        "type1": "steel",
+        "type2": "dragon",
+        "original_id": 706,
+        "section": "regional"
+    },
+    {
+        "id": 10412,
+        "name": "avalugg-hisui",
+        "type1": "ice",
+        "type2": "rock",
+        "original_id": 713,
+        "section": "regional"
+    },
+    {
+        "id": 10413,
+        "name": "decidueye-hisui",
+        "type1": "grass",
+        "type2": "fighting",
+        "original_id": 724,
+        "section": "regional"
+    },
+    {
+        "id": 10419,
+        "name": "tauros-paldea-combat-breed",
+        "type1": "fighting",
+        "type2": "none",
+        "original_id": 128,
+        "section": "regional"
+    },
+    {
+        "id": 10422,
+        "name": "wooper-paldea",
+        "type1": "poison",
+        "type2": "ground",
+        "original_id": 194,
+        "section": "regional"
+    }
+]
