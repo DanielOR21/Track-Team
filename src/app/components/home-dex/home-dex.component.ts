@@ -70,12 +70,12 @@ export class HomeDexComponent implements OnInit, AfterViewInit {
 
 
   stateList = [
-    { name: 'Uncaught', value: ALLOWED_STATES[0], img: '/symbols/Uncaught.png', count: 0 },
-    { name: 'Caught', value: ALLOWED_STATES[1], img: '/symbols/Caught.png', count: 0 },
-    { name: 'Wanted', value: ALLOWED_STATES[2], img: '/symbols/Wanted.png', count: 0 },
-    { name: 'Stored', value: ALLOWED_STATES[3], img: '/symbols/Stored.png', count: 0 },
-    { name: 'Evolve', value: ALLOWED_STATES[4], img: '/symbols/Evolve.png', count: 0 },
-    { name: 'Change', value: ALLOWED_STATES[5], img: '/symbols/Change.png', count: 0 },
+    { name: 'Uncaught', value: ALLOWED_STATES[0], img: '/assets/symbols/Uncaught.png', count: 0 },
+    { name: 'Caught', value: ALLOWED_STATES[1], img: '/assets/symbols/Caught.png', count: 0 },
+    { name: 'Wanted', value: ALLOWED_STATES[2], img: '/assets/symbols/Wanted.png', count: 0 },
+    { name: 'Stored', value: ALLOWED_STATES[3], img: '/assets/symbols/Stored.png', count: 0 },
+    { name: 'Evolve', value: ALLOWED_STATES[4], img: '/assets/symbols/Evolve.png', count: 0 },
+    { name: 'Change', value: ALLOWED_STATES[5], img: '/assets/symbols/Change.png', count: 0 },
   ];
 
   titleList = [
@@ -1149,7 +1149,7 @@ export class HomeDexComponent implements OnInit, AfterViewInit {
 
   onImageError(event: Event, id?: number): void {
     const imgElement = event.target as HTMLImageElement;
-    imgElement.src = '/home/0.png';
+    imgElement.src = '/assets/home/0.png';
   }
 }
 

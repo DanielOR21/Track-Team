@@ -14,8 +14,8 @@
           }@else if(currentLanguage === 'es'){
           {{moveInfo.languaje[1].es | formatName}}
           }
-          <img class="type-info-img" [src]="'/types/'+moveInfo.type+'.png'" alt={{moveInfo.type}} />
-          <img class="damage-info-img" [src]="'/damage_class/'+moveInfo.damage_class+'.png'" alt={{moveInfo.damage_class}} />
+          <img class="type-info-img" [src]="'/assets/types/'+moveInfo.type+'.png'" alt={{moveInfo.type}} />
+          <img class="damage-info-img" [src]="'/assets/damage_class/'+moveInfo.damage_class+'.png'" alt={{moveInfo.damage_class}} />
         </div>
 
         <div class="move-info-name-alt">
@@ -31,11 +31,11 @@
       <div class="div-states-drop">
 
         <div class="info-text">
-          <img src="/symbols/info.png" class="info-symbol" alt="info"> State:
+          <img src="/assets/symbols/info.png" class="info-symbol" alt="info"> State:
         </div>
 
         <div class="info-dropdown-button" (click)="toggleDropdown(5)">
-          <img [src]="'/symbols/'+moveInfo.state+'.png' " alt="{{ moveInfo.state }}" class="states-dropdown-icon">
+          <img [src]="'/assets/symbols/'+moveInfo.state+'.png' " alt="{{ moveInfo.state }}" class="states-dropdown-icon">
           <span>{{ moveInfo.state }}</span>
         </div>
 
@@ -84,13 +84,13 @@
 
       <div class="move-info-pokemon-div">
         @if (moveInfo.pokemon_id === 0) {
-        <img src="/home/0.png" alt="" class="move-pokemon-img">
+        <img src="/assets/home/0.png" alt="" class="move-pokemon-img">
         }@else {
         @if (moveInfo.shiny) {
-        <img [src]="'/home/shiny/'+moveInfo.section+'/'+moveInfo.pokemon_id +'.png'" alt="" class="move-pokemon-img"
+        <img [src]="'/assets/home/shiny/'+moveInfo.section+'/'+moveInfo.pokemon_id +'.png'" alt="" class="move-pokemon-img"
           (error)="onImageError($event, moveInfo.pokemon_id)">
         }@else{
-        <img [src]="'/home/'+moveInfo.section+'/'+moveInfo.pokemon_id +'.png'" alt="" class="move-pokemon-img"
+        <img [src]="'/assets/home/'+moveInfo.section+'/'+moveInfo.pokemon_id +'.png'" alt="" class="move-pokemon-img"
           (error)="onImageError($event, moveInfo.pokemon_id)">
         }
         }
@@ -277,14 +277,14 @@
             }" (mouseenter)="onCardHover(pokemon.id, pokemon.section)" (mouseleave)="onCardMouseLeave()">
 
         @if (pokemon.name.includes('female')) {
-        <img class="female" [src]="'/symbols/female.png'" alt='female' />
+        <img class="female" [src]="'/assets/symbols/female.png'" alt='female' />
         }
 
         @if (!this.shinyPokemon){
-        <img [src]="'/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
+        <img [src]="'/assets/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
           alt="{{ pokemon.name }}" />
         }@else {
-        <img [src]="'/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
+        <img [src]="'/assets/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
           (error)="onImageError($event, pokemon.id)" alt="{{ pokemon.name }}" />
         }
 
@@ -329,13 +329,13 @@
         }@else if(currentLanguage === 'es'){
         {{move.languaje[1].es}}
         }
-        <img class="type-card-img" [src]="'/types/'+move.type+'.png'" alt={{move.type}} />
+        <img class="type-card-img" [src]="'/assets/types/'+move.type+'.png'" alt={{move.type}} />
         @if (getMoveStateLS(move.id) === 'Caught') {
-        <img class="pokeball" [src]="'/symbols/Caught.png'" alt='catched' />
+        <img class="pokeball" [src]="'/assets/symbols/Caught.png'" alt='catched' />
         }@else if (getMoveStateLS(move.id) === 'Wanted') {
-        <img class="pokeball" [src]="'/symbols/Wanted.png'" alt='wanted' />
+        <img class="pokeball" [src]="'/assets/symbols/Wanted.png'" alt='wanted' />
         }@else if (getMoveStateLS(move.id) === 'Uncaught') {
-        <img class="pokeball" [src]="'/symbols/Uncaught.png'" alt='uncaught' />
+        <img class="pokeball" [src]="'/assets/symbols/Uncaught.png'" alt='uncaught' />
         }
 
       </div>

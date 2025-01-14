@@ -44,9 +44,9 @@ export class MoveDexComponent implements OnInit, AfterViewInit {
   ];
 
   stateList = [
-    { name: 'Uncaught', value: ITEM_STATES[0], img: '/symbols/Uncaught.png' },
-    { name: 'Caught', value: ITEM_STATES[1], img: '/symbols/Caught.png' },
-    { name: 'Wanted', value: ITEM_STATES[2], img: '/symbols/Wanted.png' },
+    { name: 'Uncaught', value: ITEM_STATES[0], img: '/assets/symbols/Uncaught.png' },
+    { name: 'Caught', value: ITEM_STATES[1], img: '/assets/symbols/Caught.png' },
+    { name: 'Wanted', value: ITEM_STATES[2], img: '/assets/symbols/Wanted.png' },
   ];
 
   gameList = gameList;
@@ -1150,7 +1150,7 @@ export class MoveDexComponent implements OnInit, AfterViewInit {
 
   onImageError(event: Event, id?: number): void {
     const imgElement = event.target as HTMLImageElement;
-    imgElement.src = '/home/0.png';
+    imgElement.src = '/assets/home/0.png';
   }
 
   // getLearnedByPokemon(moves: { id: number }[]): void {

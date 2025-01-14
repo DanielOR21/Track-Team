@@ -29,11 +29,11 @@
         <div class="div-states-drop">
   
           <div class="info-text">
-            <img src="/symbols/info.png" class="info-symbol" alt="info"> State:
+            <img src="/assets/symbols/info.png" class="info-symbol" alt="info"> State:
           </div>
   
           <div class="info-dropdown-button" (click)="toggleDropdown(5)">
-            <img [src]="'/symbols/'+abilityInfo.state+'.png' " alt="{{ abilityInfo.state }}" class="states-dropdown-icon">
+            <img [src]="'/assets/symbols/'+abilityInfo.state+'.png' " alt="{{ abilityInfo.state }}" class="states-dropdown-icon">
             <span>{{ abilityInfo.state }}</span>
           </div>
   
@@ -82,13 +82,13 @@
   
         <div class="ability-info-pokemon-div">
           @if (abilityInfo.pokemon_id === 0) {
-          <img src="/home/0.png" alt="" class="ability-pokemon-img">
+          <img src="/assets/home/0.png" alt="" class="ability-pokemon-img">
           }@else {
           @if (abilityInfo.shiny) {
-          <img [src]="'/home/shiny/'+abilityInfo.section+'/'+abilityInfo.pokemon_id +'.png'" alt="" class="ability-pokemon-img"
+          <img [src]="'/assets/home/shiny/'+abilityInfo.section+'/'+abilityInfo.pokemon_id +'.png'" alt="" class="ability-pokemon-img"
             (error)="onImageError($event, abilityInfo.pokemon_id)">
           }@else{
-          <img [src]="'/home/'+abilityInfo.section+'/'+abilityInfo.pokemon_id +'.png'" alt="" class="ability-pokemon-img"
+          <img [src]="'/assets/home/'+abilityInfo.section+'/'+abilityInfo.pokemon_id +'.png'" alt="" class="ability-pokemon-img"
             (error)="onImageError($event, abilityInfo.pokemon_id)">
           }
           }
@@ -273,14 +273,14 @@
               }" (mouseenter)="onCardHover(pokemon.id, pokemon.section)" (mouseleave)="onCardMouseLeave()">
 
         @if (pokemon.name.includes('female')) {
-        <img class="female" [src]="'/symbols/female.png'" alt='female' />
+        <img class="female" [src]="'/assets/symbols/female.png'" alt='female' />
         }
 
         @if (!this.shinyPokemon){
-        <img [src]="'/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
+        <img [src]="'/assets/home/'+ pokemon.section +'/' + pokemon.id + '.png'" (error)="onImageError($event, pokemon.id)"
           alt="{{ pokemon.name }}" />
         }@else {
-        <img [src]="'/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
+        <img [src]="'/assets/home/shiny/'+ pokemon.section +'/' + pokemon.id + '.png'"
           (error)="onImageError($event, pokemon.id)" alt="{{ pokemon.name }}" />
         }
 
@@ -324,11 +324,11 @@
         {{ability.languaje[1].es}}
         }
         @if (getAbilityStateLS(ability.id) === 'Caught') {
-        <img class="pokeball" [src]="'/symbols/Caught.png'" alt='catched' />
+        <img class="pokeball" [src]="'/assets/symbols/Caught.png'" alt='catched' />
         }@else if (getAbilityStateLS(ability.id) === 'Wanted') {
-        <img class="pokeball" [src]="'/symbols/Wanted.png'" alt='wanted' />
+        <img class="pokeball" [src]="'/assets/symbols/Wanted.png'" alt='wanted' />
         }@else if (getAbilityStateLS(ability.id) === 'Uncaught') {
-        <img class="pokeball" [src]="'/symbols/Uncaught.png'" alt='uncaught' />
+        <img class="pokeball" [src]="'/assets/symbols/Uncaught.png'" alt='uncaught' />
         }
 
       </div>

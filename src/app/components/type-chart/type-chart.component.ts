@@ -90,8 +90,8 @@ export class TypeChartComponent implements OnInit {
     const type1 = Object.keys(this.selectedTypes).find(key => key === `type1-${row}`);
     const type2 = Object.keys(this.selectedTypes).find(key => key === `type2-${row}`);
     return [
-      type1 ? this.selectedTypes[type1].replace('/types/', '').replace('.png', '') : 'none',
-      type2 ? this.selectedTypes[type2].replace('/types/', '').replace('.png', '') : 'none'
+      type1 ? this.selectedTypes[type1].replace('/assets/types/', '').replace('.png', '') : 'none',
+      type2 ? this.selectedTypes[type2].replace('/assets/types/', '').replace('.png', '') : 'none'
     ].filter(type => type && type !== 'none');
   }
 
