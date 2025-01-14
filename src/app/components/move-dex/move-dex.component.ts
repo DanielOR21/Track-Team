@@ -111,7 +111,6 @@ export class MoveDexComponent implements OnInit, AfterViewInit {
     this.initializeMoveLocalStorage();
     this.loadStorageData();
     this.order = this.getOrderLS();
-    console.log(this.order)
   }
 
   async ngAfterViewInit(): Promise<void> {
@@ -134,13 +133,13 @@ export class MoveDexComponent implements OnInit, AfterViewInit {
         };
 
         // Actualizar el localStorage con los datos validados y ordenados
-        localStorage.setItem('ability-storage', JSON.stringify(validatedData));
-        console.log(`El localStorage 'ability-storage' ha sido validado y actualizado.`);
+        localStorage.setItem('move-storage', JSON.stringify(validatedData));
+        console.log(`El localStorage 'move-storage' ha sido validado y actualizado.`);
         return;
       } catch (error) {
-        console.error(`Error al validar 'ability-storage':`, error);
+        console.error(`Error al validar 'move-storage':`, error);
         // Si hay un error en el formato, eliminar el valor corrupto
-        localStorage.removeItem('ability-storage');
+        localStorage.removeItem('move-storage');
       }
     }
 

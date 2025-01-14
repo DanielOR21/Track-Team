@@ -45,7 +45,6 @@ export class LocalStorageService {
     if (!storedValue || !isValid(storedValue)) {
       const defaultValue: AllowedValue = 'none';
       localStorage.setItem(key, defaultValue.toString());
-      console.log(`'section' no era válido o no existía. Se ha inicializado con '${defaultValue}'.`);
       return defaultValue;
     }
     return storedValue
@@ -62,7 +61,6 @@ export class LocalStorageService {
     if (!storedValue || !isValid(storedValue)) {
       const defaultValue: AllowedNumbers = 0;
       localStorage.setItem(key, defaultValue.toString());
-      console.log(`'section' no era válido o no existía. Se ha inicializado con '${defaultValue}'.`);
       return defaultValue;
     }
     return storedValue
@@ -79,7 +77,6 @@ export class LocalStorageService {
     if (!storedValue || !isValid(storedValue)) {
       const defaultValue: AllowedNumbers = 0;
       localStorage.setItem(key, defaultValue.toString());
-      console.log(`'section' no era válido o no existía. Se ha inicializado con '${defaultValue}'.`);
       return defaultValue;
     }
     return storedValue
@@ -144,17 +141,14 @@ export class LocalStorageService {
   }
 
   setSectionLS(value: AllowedValue): void {
-    localStorage.setItem('home-section', String(value)); // Convertimos el valor a string si es necesario
-    console.log(`Valor de 'section' actualizado a: ${value}`);
+    localStorage.setItem('home-section', String(value));
   }
 
   setMoveSectionLS(value: AllowedNumbers): void {
-    localStorage.setItem('move-section', String(value)); // Convertimos el valor a string si es necesario
-    console.log(`Valor de 'section' actualizado a: ${value}`);
+    localStorage.setItem('move-section', String(value));
   }
 
   setAbilitySectionLS(value: AllowedNumbers): void {
-    localStorage.setItem('ability-section', String(value)); // Convertimos el valor a string si es necesario
-    console.log(`Valor de 'section' actualizado a: ${value}`);
+    localStorage.setItem('ability-section', String(value));
   }
 }
