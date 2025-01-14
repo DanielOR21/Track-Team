@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, Component, HostListener, OnInit } from '@angular/core';
 
-import * as types from '../../../../public/templates/types-template.json';
+import * as types from '../../../assets/templates/types-template.json';
 import { TypesInterface } from '../../interfaces/typesInterface';
 import { DamageRelationsInterface } from '../../interfaces/damageRelationsInterface';
 import { LocalStorageService } from '../../services/local-storage.service';

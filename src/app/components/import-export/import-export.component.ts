@@ -3,10 +3,10 @@ import { LocalStorageService } from '../../services/local-storage.service';
 import { ALLOWED_STATES, PokemonState, gameNames, GameName, pokemonLocalStorageInterface, HomeLocalStorageInterface } from '../../interfaces/pokemonLocalStorage';
 import { pokemonInterface } from '../../interfaces/pokemonInterface';
 
-import * as homeList from '../../../../public/templates/home-template.json';
-import * as formList from '../../../../public/templates/form-template.json';
-import * as regionalList from '../../../../public/templates/regional-template.json';
-import * as femaleList from '../../../../public/templates/female-template.json';
+import * as homeList from '../../../assets/templates/home-template.json';
+import * as formList from '../../../assets/templates/form-template.json';
+import * as regionalList from '../../../assets/templates/regional-template.json';
+import * as femaleList from '../../../assets/templates/female-template.json';
 
 @Component({
   selector: 'app-import-export',

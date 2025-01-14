@@ -1,14 +1,14 @@
 import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 import { forkJoin, map } from 'rxjs';
 
-import * as moves from '../../../../public/templates/move-template.json';
-import * as learnMoves from '../../../../public/templates/move-pokemon-template.json';
+import * as moves from '../../../assets/templates/move-template.json';
+import * as learnMoves from '../../../assets/templates/move-pokemon-template.json';
 
-import * as homeList from '../../../../public/templates/home-template.json';
-import * as formList from '../../../../public/templates/form-template.json';
-import * as regionalList from '../../../../public/templates/regional-template.json';
-import * as femaleList from '../../../../public/templates/female-template.json';
-import * as types from '../../../../public/templates/types-template.json';
+import * as homeList from '../../../assets/templates/home-template.json';
+import * as formList from '../../../assets/templates/form-template.json';
+import * as regionalList from '../../../assets/templates/regional-template.json';
+import * as femaleList from '../../../assets/templates/female-template.json';
+import * as types from '../../../assets/templates/types-template.json';
 
 import { MoveInterface } from '../../interfaces/moveInterface';
 import { MoveInfoInterface } from '../../interfaces/moveInfoInterface';

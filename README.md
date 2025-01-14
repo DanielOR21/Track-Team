@@ -32,3 +32,11 @@ localstorage object:
         "female": []
     }
 }
+
+
+Subir la build a git:
+
+1-Parar el proyecto.
+2-Comando: npm run build
+
+3-

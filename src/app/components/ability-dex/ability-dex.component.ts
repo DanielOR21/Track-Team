@@ -1,13 +1,13 @@
 import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 import { forkJoin, map } from 'rxjs';
 
-import * as abilities from '../../../../public/templates/ability-template.json';
-import * as learnAbilities from '../../../../public/templates/ability-pokemon-template.json';
-import * as homeList from '../../../../public/templates/home-template.json';
-import * as formList from '../../../../public/templates/form-template.json';
-import * as regionalList from '../../../../public/templates/regional-template.json';
-import * as femaleList from '../../../../public/templates/female-template.json';
-import * as types from '../../../../public/templates/types-template.json';
+import * as abilities from '../../../assets/templates/ability-template.json';
+import * as learnAbilities from '../../../assets/templates/ability-pokemon-template.json';
+import * as homeList from '../../../assets/templates/home-template.json';
+import * as formList from '../../../assets/templates/form-template.json';
+import * as regionalList from '../../../assets/templates/regional-template.json';
+import * as femaleList from '../../../assets/templates/female-template.json';
+import * as types from '../../../assets/templates/types-template.json';
 
 import { HomeDexService } from '../../services/home-dex.service';
 import { LocalStorageService } from '../../services/local-storage.service';

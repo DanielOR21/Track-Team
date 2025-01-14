@@ -8,11 +8,11 @@ import { pokemonInterface } from '../../interfaces/pokemonInterface';
 import { typesJson } from '../../interfaces/typesJson';
 import { ALLOWED_STATES, PokemonState, ALLOWED_VALUES, AllowedValue, pokemonLocalStorageInterface, HomeLocalStorageInterface, gameList, gameNames, GameName } from '../../interfaces/pokemonLocalStorage';
 
-import * as homeList from '../../../../public/templates/home-template.json';
-import * as formList from '../../../../public/templates/form-template.json';
-import * as regionalList from '../../../../public/templates/regional-template.json';
-import * as femaleList from '../../../../public/templates/female-template.json';
-import * as types from '../../../../public/templates/types-template.json';
+import * as homeList from '../../../assets/templates/home-template.json';
+import * as formList from '../../../assets/templates/form-template.json';
+import * as regionalList from '../../../assets/templates/regional-template.json';
+import * as femaleList from '../../../assets/templates/female-template.json';
+import * as types from '../../../assets/templates/types-template.json';
 
 import { FormatNamePipe } from '../../pipe/format-name/format-name.pipe';
 import { FormatNumberPipe } from '../../pipe/format-number/format-number.pipe';
