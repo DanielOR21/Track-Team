@@ -5016,10 +5016,6 @@ pkg-dir@^7.0.0:
   dependencies:
     find-up "^6.3.0"
 
-"pokemon-sprites@github:PokeAPI/sprites":
-  version "1.0.0"
-  resolved "git+ssh://git@github.com/PokeAPI/sprites.git#3523482c5365843799c8acf5fcad7cccd57fea9d"
-
 postcss-loader@8.1.1:
   version "8.1.1"
   resolved "https://registry.npmjs.org/postcss-loader/-/postcss-loader-8.1.1.tgz"
