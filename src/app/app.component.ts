@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component, HostListener, Inject, OnInit, PLATFORM_ID } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { NavigationEnd, Router, RouterLink, RouterOutlet } from '@angular/router';
 import { LocalStorageService } from './services/local-storage.service';
 
@@ -15,28 +15,40 @@ import { LocalStorageService } from './services/local-storage.service';
 export class AppComponent implements OnInit {
   title = 'pokeapp-angular';
   currentLanguage: 'en' | 'es' = 'en';
+  isSmallScreen: boolean = false;
 
-  constructor(private router: Router, private localStorageService: LocalStorageService) {}
+  navDropdown: boolean = false;
+  isRotated: boolean = false;
+
+  constructor(private router: Router, private localStorageService: LocalStorageService, @Inject(PLATFORM_ID) private platformId: Object) {
+    if (isPlatformBrowser(this.platformId)) {
+      this.checkScreenSize(); // Verificar tamaño solo en el navegador
+    }
+  }
 
   ngOnInit() {
     this.localStorageService.language$.subscribe((language) => {
       this.currentLanguage = language;
     });
-    this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd) {
-        localStorage.setItem('main-url', event.urlAfterRedirects);
-      }
-    });
+  }
 
-    const lastUrl = localStorage.getItem('main-url');
-    if (lastUrl) {
-      this.router.navigateByUrl(lastUrl).catch(() => {
-        this.router.navigate(['/default']);
-      });
+  @HostListener('window:resize', ['$event'])
+  onResize(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      this.checkScreenSize(); // Solo en el cliente
     }
+  }
+
+  private checkScreenSize(): void {
+    this.isSmallScreen = window.innerWidth <= 1250;
   }
 
   setLanguage(newLng: 'en' | 'es'): void {
     this.localStorageService.setLanguageLS(newLng);
+  }
+
+  toggleDropdown(): void {
+    this.navDropdown = !this.navDropdown;
+    this.isRotated = !this.isRotated;
   }
 }

@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html,
 body {
     height: 100vh;
@@ -9,9 +15,8 @@ body {
 body {
     margin: 0;
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    /* background-color: rgb(43, 53, 47); */
     background: radial-gradient(circle, rgba(0,7,51,1) 0%, rgba(25,50,40,1) 100%);
     color: white;
-    
+    min-height: 100vh;
 }
 

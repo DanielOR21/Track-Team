@@ -34,9 +34,4 @@ localstorage object:
 }
 
 
-Subir la build a git:
-
-1-Parar el proyecto.
-2-Comando: npm run build
-
-3-abrir git bash en la carpeta dist/browser
+Pagina donde se hostea: Render

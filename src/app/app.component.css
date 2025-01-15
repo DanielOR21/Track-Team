@@ -1,6 +1,6 @@
 .route {
   width: 100%;
-  min-height: 80vh;
+  min-height:80vh;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -18,6 +18,7 @@
 
 nav {
   height: 8vh;
+  min-height: 50px;
   min-width: 100%;
 }
 
@@ -35,6 +36,12 @@ nav {
   width: 25%;
   min-width: 100px;
   font-size: 1.2em;
+}
+
+.no-link {
+  text-decoration: line-through !important;
+  filter: brightness(0.8);
+  cursor:default;
 }
 
 .nav-title-div{
@@ -66,4 +73,139 @@ nav {
 footer{
   height: 12vh;
   width: 100%;
+}
+
+
+@keyframes fadeInEffect {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1250px) {
+
+  nav{
+    flex-wrap: wrap;
+  }
+  .nav-languaje-div{
+    width: 30%;
+  }
+
+  .nav-title-div{
+    width: 40%;
+    font-size: 1.8em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(219, 139, 35);
+    border: 2px solid white;
+    border-right: 0;
+    border-left: 0;
+    background-color: rgba(127, 255, 212, 0.089);
+   }
+
+   .nav-impexp-div{
+    width: 30%;
+  }
+
+  .nav-dropdown-button {
+    min-width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+  }
+
+  .nav-dropdown-button img {
+    width: 20px;
+    height: 15px;
+    transition: transform 0.2s ease;
+  }
+
+  .nav-dropdown-button img.rotated {
+    transform: rotate(-180deg);
+  }
+
+  .overlay-dropdown {
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    animation: fadeInEffect 0.1s ease-in forwards;
+  }
+  
+  .dropdown-content {
+    background: rgba(5, 57, 66, 0.98);
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+  .nav-item-dropdown{
+    text-align: center;
+    width: 30%;
+    min-width: 100px;
+  }
+
+  .nav-link-dropdown {
+    color: rgb(209, 221, 231);
+    text-decoration: none;
+  }
+  
+  .nav-link-dropdown:hover:not(.no-link) {
+    text-decoration: underline;
+  }
+   
+}
+
+@media only screen and (max-width: 600px) {
+  .route {
+    width: 100%;
+    height: 84vh;
+    min-height: 500px;
+    font-size: 0.6em;
+  }
+
+  nav {
+    height: 7vh;
+    min-height: 50px;
+    font-size: 0.6em;
+    max-width: 100vw;
+  }
+
+  .nav-main-item {
+    height: 3.3vh;
+  }
+
+  .nav-dropdown-button {
+    height: 3vh;
+  }
+
+  .overlay-dropdown {
+    top: 7vh;
+  }
+
+  .nav-item-dropdown{
+    text-align: center;
+    width: 25%;
+    min-width: 80px;
+    font-size: 1.4em;
+  }
+
+  footer {
+    height: 9vh;
+    min-height: 50px;
+    font-size: small;
+  }
+
 }
