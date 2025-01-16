@@ -22,7 +22,7 @@ export class TypeChartComponent implements OnInit {
 
   currentLanguage: 'en' | 'es' = 'en';
   typeList: TypesInterface[] = (types as any).default;
-  selectedType: TypesInterface | null = null;
+  selectedType: TypesInterface | 'none' = 'none';
 
   rows = [1, 2, 3, 4, 5, 6];
   combinedRelations: { [key: string]: any } = {};
@@ -60,6 +60,13 @@ export class TypeChartComponent implements OnInit {
   }
 
   openDropdown(event: MouseEvent, type: string, row: number): void {
+
+    if(this.dropdownVisible === true){
+      this.dropdownVisible = false;
+      return;
+    }
+
+
     event.stopPropagation();
 
     const target = event.target as HTMLElement;
@@ -71,12 +78,26 @@ export class TypeChartComponent implements OnInit {
     };
 
     this.dropdownVisible = true;
+    if (type !== 'main'){
     this.currentTarget = `${type}-${row}`;
+    }else{
+      this.currentTarget = 'main';
+    }
     this.cdr.detectChanges();
   }
 
   updateTypeSelection(type: string, target: string | null): void {
-    if (target) {
+    if (target === 'main') {
+
+      const selectedType = this.typeList.find(t => t.type === type);
+
+      if (!selectedType) {
+        this.selectedType = 'none'
+      }else{
+        this.selectType(selectedType);
+      } 
+
+    } else if (target) {
 
       this.selectedTypes[target] = type;
 
@@ -249,7 +270,7 @@ export class TypeChartComponent implements OnInit {
     const globalImmunities = new Set<string>();
     const globalSuperWeaknesses = new Set<string>();
     const globalSuperResistances = new Set<string>();
-  
+
     // Combinar relaciones de todos los rows
     Object.values(this.showRelations).forEach(relation => {
       if (relation && relation.weaknesses) {
@@ -268,12 +289,12 @@ export class TypeChartComponent implements OnInit {
         relation.super_resistances.forEach((type: string) => globalSuperResistances.add(type));
       }
     });
-  
+
     // Actualizar noWeak
     Object.keys(this.noWeak).forEach((type) => {
       this.noWeak[type] = globalWeaknesses.has(type) || globalSuperWeaknesses.has(type) ? false : true;
     });
-  
+
     // Actualizar noResisted
     Object.keys(this.noResisted).forEach((type) => {
       this.noResisted[type] =
@@ -323,7 +344,7 @@ export class TypeChartComponent implements OnInit {
 
   selectType(type: TypesInterface): void {
     if (this.selectedType === type) {
-      this.selectedType = null;
+      this.selectedType = 'none';
       return;
     }
     this.selectedType = type;

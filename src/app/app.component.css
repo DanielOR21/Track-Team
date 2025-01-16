@@ -1,6 +1,7 @@
 .route {
   width: 100%;
   min-height:80vh;
+  max-height: 80vh;
   justify-content: center;
   align-items: center;
   margin-left: auto;
@@ -172,7 +173,8 @@ footer{
   .route {
     width: 100%;
     height: 84vh;
-    min-height: 500px;
+    max-height: none;
+    min-height: 780px;
     font-size: 0.6em;
   }
 

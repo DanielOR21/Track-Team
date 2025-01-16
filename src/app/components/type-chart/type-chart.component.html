@@ -2,41 +2,47 @@
 
     <div class="type-list-div animate-fade-in">
 
-        <div class="type-list">
-            @for (type of typeList; track $index) {
-            <div class="type-list-item" [class.type-list-item-selected]="type === selectedType"
-                (click)="selectType(type)">
-                <img [src]="'/assets/types/'+type.type+'.png'" [alt]="type.type"
-                    [title]="currentLanguage === 'es' ? type.es : type.type" />
-            </div>
-            }
-        </div>
-
-        @if (selectedType) {
-
         <div class="type-details-div animate-slide-in">
 
-            <div class="main-type-title">
-                <h4>
-                    @if(currentLanguage === 'es') {
-                    {{ selectedType.es | formatName }}
-                    }@else {
-                    {{ selectedType.type | formatName }}
-                    }
-                </h4>
-            </div>
+            <div class="main-type-div">
 
-            <div class="main-type">
-                <img [src]="'/assets/types/'+selectedType.type+'.png'" [alt]="selectedType.type"
-                    [title]="currentLanguage === 'es' ? selectedType.es : selectedType.type" />
+                <div class="main-type-title">
+                    <h4>
+                        @if (selectedType !== 'none') {
+
+                        @if(currentLanguage === 'es') {
+                        {{ selectedType.es | formatName }}
+                        }@else {
+                        {{ selectedType.type | formatName }}
+                        }
+
+                        }@else {
+
+                        Click!
+
+                        }
+                    </h4>
+                </div>
+
+                <div class="main-type">
+                    @if (selectedType !== 'none') {
+
+                    <img [src]="'/assets/types/'+selectedType.type+'.png'" [alt]="selectedType.type" (click)="openDropdown($event, 'main', 0)"
+                        [title]="currentLanguage === 'es' ? selectedType.es : selectedType.type" />
+
+                    }@else {
+                        <img src="/assets/types/none.png" alt="none" (click)="openDropdown($event, 'main', 0)" [title]="currentLanguage === 'es' ? 'nada' : 'none'">
+                    }
+                </div>
+                
             </div>
 
             <div class="selected-damage-relations">
-
+                @if (selectedType !== 'none') {
                 <div class="damage-relation-item">
                     <div class="damage-relation-item-title">
                         <img class="damage-relation-img" src="/assets/symbols/defensive.png"
-                            [title]="currentLanguage === 'es' ? 'Defensor' : 'Defensive'" />
+                            [title]="currentLanguage === 'es' ? 'Defendiendo' : 'Defending'" />
                         <span>
                             x2
                         </span>
@@ -54,7 +60,7 @@
                 <div class="damage-relation-item">
                     <div class="damage-relation-item-title">
                         <img class="damage-relation-img" src="/assets/symbols/defensive.png"
-                            [title]="currentLanguage === 'es' ? 'Defensor' : 'Defensive'" />
+                            [title]="currentLanguage === 'es' ? 'Defendiendo' : 'Defending'" />
                         <span>
                             x½
                         </span>
@@ -72,7 +78,7 @@
                 <div class="damage-relation-item">
                     <div class="damage-relation-item-title">
                         <img class="damage-relation-img" src="/assets/symbols/defensive.png"
-                            [title]="currentLanguage === 'es' ? 'Defensor' : 'Defensive'" />
+                            [title]="currentLanguage === 'es' ? 'Defendiendo' : 'Defending'" />
                         <span>
                             x0
                         </span>
@@ -90,7 +96,7 @@
                 <div class="damage-relation-item">
                     <div class="damage-relation-item-title">
                         <img class="damage-relation-img" src="/assets/symbols/offensive.png"
-                            [title]="currentLanguage === 'es' ? 'Atacante' : 'Offensive'" />
+                            [title]="currentLanguage === 'es' ? 'Atacando' : 'Attacking'" />
                         <span>
                             x2
                         </span>
@@ -108,7 +114,7 @@
                 <div class="damage-relation-item">
                     <div class="damage-relation-item-title">
                         <img class="damage-relation-img" src="/assets/symbols/offensive.png"
-                            [title]="currentLanguage === 'es' ? 'Atacante' : 'Offensive'" />
+                            [title]="currentLanguage === 'es' ? 'Atacando' : 'Attacking'" />
                         <span>
                             x½
                         </span>
@@ -126,7 +132,7 @@
                 <div class="damage-relation-item">
                     <div class="damage-relation-item-title">
                         <img class="damage-relation-img" src="/assets/symbols/offensive.png"
-                            [title]="currentLanguage === 'es' ? 'Atacante' : 'Offensive'" />
+                            [title]="currentLanguage === 'es' ? 'Atacando' : 'Attacking'" />
                         <span>
                             x0
                         </span>
@@ -140,20 +146,20 @@
                         }
                     </div>
                 </div>
-
+                }@else {
+                <div class="type-list-text animate-slide-in">
+                    @if(currentLanguage === 'es') {
+                    Selecciona un tipo
+                    }@else {
+                    Select a type
+                    }
+                </div>
+                }
             </div>
 
         </div>
 
-        }@else {
-        <div class="type-list-text animate-slide-in">
-            @if(currentLanguage === 'es') {
-            Selecciona un tipo
-            }@else {
-            Select a type
-            }
-        </div>
-        }
+
 
     </div>
 
@@ -206,12 +212,14 @@
                     @if (showRelations[i]) {
                     @for (item of showRelations[i].super_weaknesses; track $index) {
                     <div class="type-selected-item super-relation">
-                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item" [title]="'x4 '+ getTranslatedTitle(item)" />
+                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item"
+                            [title]="'x4 '+ getTranslatedTitle(item)" />
                     </div>
                     }
                     @for (item of showRelations[i].weaknesses; track $index) {
                     <div class="type-selected-item normal-relation">
-                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item" [title]="'x2 '+ getTranslatedTitle(item)" />
+                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item"
+                            [title]="'x2 '+ getTranslatedTitle(item)" />
                     </div>
                     }
                     }
@@ -221,17 +229,20 @@
                     @if (showRelations[i]) {
                     @for (item of showRelations[i].immunities; track $index) {
                     <div class="type-selected-item immunity-relation">
-                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item" [title]="'x0 '+ getTranslatedTitle(item)" />
+                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item"
+                            [title]="'x0 '+ getTranslatedTitle(item)" />
                     </div>
                     }
                     @for (item of showRelations[i].super_resistances; track $index) {
                     <div class="type-selected-item super-relation">
-                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item" [title]="'x¼ '+ getTranslatedTitle(item)" />
+                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item"
+                            [title]="'x¼ '+ getTranslatedTitle(item)" />
                     </div>
                     }
                     @for (item of showRelations[i].resistances; track $index) {
                     <div class="type-selected-item normal-relation">
-                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item" [title]="'x½ '+ getTranslatedTitle(item)" />
+                        <img [src]="'/assets/types/'+item+'.png'" [alt]="item"
+                            [title]="'x½ '+ getTranslatedTitle(item)" />
                     </div>
                     }
                     }
@@ -286,12 +297,12 @@
 
                     <div class="type-no-box">
                         @for (item of noWeak | keyvalue; track $index) {
-                            @if (item.value) {
-                            <div class="type-no-item">
-                                <img [src]="'/assets/types/' + item.key + '.png'" [alt]="item.key"
-                                    [title]="getTranslatedTitle(item.key)" />
-                            </div>
-                            }
+                        @if (item.value) {
+                        <div class="type-no-item">
+                            <img [src]="'/assets/types/' + item.key + '.png'" [alt]="item.key"
+                                [title]="getTranslatedTitle(item.key)" />
+                        </div>
+                        }
                         }
                     </div>
 
@@ -329,12 +340,12 @@
 
                     <div class="type-no-box">
                         @for (item of noResisted | keyvalue; track $index) {
-                            @if (item.value) {
-                            <div class="type-no-item">
-                                <img [src]="'/assets/types/' + item.key + '.png'" [alt]="item.key"
-                                    [title]="getTranslatedTitle(item.key)" />
-                            </div>
-                            }
+                        @if (item.value) {
+                        <div class="type-no-item">
+                            <img [src]="'/assets/types/' + item.key + '.png'" [alt]="item.key"
+                                [title]="getTranslatedTitle(item.key)" />
+                        </div>
+                        }
                         }
                     </div>
 
