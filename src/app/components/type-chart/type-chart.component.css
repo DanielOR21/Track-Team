@@ -346,7 +346,35 @@
 }
 
 .type-relation-item span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 0.5em;
+}
+
+.value-2 {
+    color: rgb(236, 225, 122);
+}
+.value-3 {
+    color: rgb(161, 82, 29);
+}
+.value-4 {
+    color: rgb(194, 33, 33);
+}
+
+.bvalue-2 {
+    background: rgb(236, 225, 122) ;
+    border: 1px solid rgb(236, 225, 122) !important;
+}
+.bvalue-3 {
+    background: rgb(161, 82, 29) ;
+    border: 1px solid rgb(161, 82, 29) !important;
+    font-weight: 600;
+}
+.bvalue-4 {
+    background-color: rgb(194, 33, 33);
+    border: 1px solid rgb(194, 33, 33) !important;
+    font-weight: 600;
 }
 
 .type-no-box {
@@ -772,6 +800,7 @@
     }
 
     .type-selected-item img {
+        border: rgb(255, 255, 255) 1px solid;
         width: 14px;
         aspect-ratio: 1/1;
     }

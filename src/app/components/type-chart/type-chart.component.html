@@ -279,9 +279,17 @@
                         @if(showTotalRelations) {
                         @for (item of showTotalRelations['weaknesses'] | keyvalue; track $index) {
                         <div class="type-relation-item">
-                            <span>x{{ item.value }}</span>
+                            <span [class]="{
+                                'value-2': item.value === 2,
+                                'value-3': item.value === 3,
+                                'value-4': item.value >= 4
+                            }">x{{ item.value }}</span>
                             <img [src]="'/assets/types/' + item.key + '.png'" [alt]="item.key"
-                                [title]="getTranslatedTitle(item.key)" />
+                                [title]="getTranslatedTitle(item.key)" [class]="{
+                                    'bvalue-2': item.value === 2,
+                                    'bvalue-3': item.value === 3,
+                                    'bvalue-4': item.value >= 4
+                                 }" />
                         </div>
                         }
                         }
