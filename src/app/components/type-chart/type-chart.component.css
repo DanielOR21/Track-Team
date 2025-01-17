@@ -488,7 +488,7 @@
         align-items: center;
         justify-content: center;
         width: 120px;
-        height: 3.4vh;
+        height: 2.2vh;
         font-size: 1.3em;
         text-align: center;
         background-color: rgb(5, 57, 66);
@@ -654,6 +654,24 @@
         aspect-ratio: 1/1;
     }
 
+    .immunity-relation img {
+        border: black 2px solid;
+        box-shadow: 0 0px 12px rgba(0, 0, 0, 0.5);
+        background-color: black;
+    }
+    
+    .super-relation img {
+        border: rgb(145, 8, 8) 2px solid;
+        box-shadow: 0 0px 12px rgba(145, 8, 8, 0.5);
+        background-color: rgb(145, 8, 8);
+    }
+    
+    .normal-relation img {
+        border: rgb(255, 255, 255) 2px solid;
+        box-shadow: 0 0px 12px rgba(255, 255, 255, 0.2);
+        background-color: rgb(255, 255, 255);
+    }
+
     .type-relation-item {
         width: 40px;
         height: 20px;
@@ -698,6 +716,8 @@
     }
 
     .main-type-div {
+        display: flex;
+        flex-direction: column;
         min-height: 135px;
         max-height: 18vh;
         width: 110px;
@@ -705,13 +725,14 @@
 
     .main-type-title {
         width: 110px;
-        height: 4vh;
+        min-height: 24px;
+        max-height: 2vh;
         font-size: 1.2em;
     }
 
     .main-type {
         width: 110px;
-        height: 12vh;
+        flex: 1;
     }
 
     .main-type img {
@@ -804,6 +825,24 @@
         border-radius: 18px;
         width: 18px;
         aspect-ratio: 1/1;
+    }
+
+    .immunity-relation img {
+        border: black 1px solid;
+        box-shadow: 0 0px 12px rgba(0, 0, 0, 0.5);
+        background-color: black;
+    }
+    
+    .super-relation img {
+        border: rgb(145, 8, 8) 1px solid;
+        box-shadow: 0 0px 12px rgba(145, 8, 8, 0.5);
+        background-color: rgb(145, 8, 8);
+    }
+    
+    .normal-relation img {
+        border: rgb(255, 255, 255) 1px solid;
+        box-shadow: 0 0px 12px rgba(255, 255, 255, 0.2);
+        background-color: rgb(255, 255, 255);
     }
 
     /* Overview */
